@@ -1,0 +1,5 @@
+﻿key,status,reference_grid,current_rgb_ready,nir,valid,valid_fraction,strategy,holdout_median_msi_px,holdout_p90_msi_px,reason
+JAX_148/JAX_148_16,rejected,,False,,,,,,,No PAN candidate passed spatial validation
+JAX_436/JAX_436_8,rejected,,False,,,,,,,No PAN candidate passed spatial validation
+OMA_922/OMA_922_26,rejected,,False,,,,,,,No PAN candidate passed spatial validation
+UCSD_291/UCSD_291_3,pan_only,PAN,False,E:\MyPythonProject\segformer\nir_pan_recovery_pilot_final\UCSD_291\UCSD_291_3_nir.tif,E:\MyPythonProject\segformer\nir_pan_recovery_pilot_final\UCSD_291\UCSD_291_3_valid.png,0.5830042490382856,native_pan_sift_gray,0.16868509804256182,0.44664887429574535,

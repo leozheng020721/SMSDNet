@@ -1,0 +1,370 @@
+{
+  "source": "E:\\Dataset\\21century\\registration_output\\rectified\\4\\region_01\\image_1_rectified.tif",
+  "tile_bounds_xywh": [
+    5120,
+    3072,
+    1024,
+    1024
+  ],
+  "interpretation": "Positive dx means the NIR feature is to the right of the RGB feature. These cross-spectral estimators are diagnostics, not a registration ground truth.",
+  "whole_tile": {
+    "red_to_nir": {
+      "phase_moving_relative_to_reference_xy": [
+        0.09129900860261841,
+        0.09849179389431129
+      ],
+      "phase_response": 0.6931545386032667,
+      "ecc_correlation": 0.9214258313148789,
+      "ecc_moving_relative_to_reference_xy": [
+        -0.0006277444772422314,
+        0.05256158113479614
+      ],
+      "sift": {
+        "matches": 2039,
+        "inliers": 2003,
+        "median_moving_relative_to_reference_xy": [
+          0.0098876953125,
+          0.0266571044921875
+        ],
+        "displacement_iqr_xy": [
+          0.10467529296875,
+          0.1602177619934082
+        ],
+        "affine_reference_to_moving": [
+          [
+            0.9999523049560836,
+            -2.1658796776799244e-05,
+            0.07612390403078105
+          ],
+          [
+            2.1658796776799244e-05,
+            0.9999523049560836,
+            0.06853757578003294
+          ]
+        ]
+      }
+    },
+    "green_to_nir": {
+      "phase_moving_relative_to_reference_xy": [
+        0.09339638775713865,
+        0.04272105716245278
+      ],
+      "phase_response": 0.6831957177782897,
+      "ecc_correlation": 0.918882799359454,
+      "ecc_moving_relative_to_reference_xy": [
+        0.011893867515027523,
+        0.012908115051686764
+      ],
+      "sift": {
+        "matches": 1776,
+        "inliers": 1723,
+        "median_moving_relative_to_reference_xy": [
+          0.015380859375,
+          0.015960693359375
+        ],
+        "displacement_iqr_xy": [
+          0.148651123046875,
+          0.16359472274780273
+        ],
+        "affine_reference_to_moving": [
+          [
+            0.9999268681778652,
+            -5.837308271184071e-05,
+            0.10816560639068006
+          ],
+          [
+            5.837308271184071e-05,
+            0.9999268681778652,
+            0.04892586611091478
+          ]
+        ]
+      }
+    },
+    "blue_to_nir": {
+      "phase_moving_relative_to_reference_xy": [
+        0.09918361365038209,
+        0.07994973912104797
+      ],
+      "phase_response": 0.6178268495132215,
+      "ecc_correlation": 0.8945528516990844,
+      "ecc_moving_relative_to_reference_xy": [
+        0.012301677837967873,
+        0.021372515708208084
+      ],
+      "sift": {
+        "matches": 1147,
+        "inliers": 1099,
+        "median_moving_relative_to_reference_xy": [
+          0.00665283203125,
+          0.025838851928710938
+        ],
+        "displacement_iqr_xy": [
+          0.134429931640625,
+          0.1898040771484375
+        ],
+        "affine_reference_to_moving": [
+          [
+            0.9999410536561857,
+            -4.3044033373937826e-05,
+            0.08116398512811605
+          ],
+          [
+            4.3044033373937826e-05,
+            0.9999410536561857,
+            0.0681083683750514
+          ]
+        ]
+      }
+    }
+  },
+  "subregions": [
+    {
+      "tile_roi_xywh": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "phase_moving_relative_to_reference_xy": [
+        0.10974996456710073,
+        -0.02926338538446771
+      ],
+      "phase_response": 0.35092715911741834,
+      "ecc_correlation": 0.6784347398541716,
+      "ecc_moving_relative_to_reference_xy": [
+        -0.1464751958847046,
+        0.12430672347545624
+      ]
+    },
+    {
+      "tile_roi_xywh": [
+        256,
+        0,
+        512,
+        512
+      ],
+      "phase_moving_relative_to_reference_xy": [
+        0.09759391306798193,
+        0.0068075153185702675
+      ],
+      "phase_response": 0.592389494064264,
+      "ecc_correlation": 0.8918439139473068,
+      "ecc_moving_relative_to_reference_xy": [
+        0.0029335077852010727,
+        0.052695803344249725
+      ]
+    },
+    {
+      "tile_roi_xywh": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "phase_moving_relative_to_reference_xy": [
+        0.10100977354582596,
+        -0.07800565793303349
+      ],
+      "phase_response": 0.5619858361314982,
+      "ecc_correlation": 0.8908485854731347,
+      "ecc_moving_relative_to_reference_xy": [
+        0.044777076691389084,
+        -0.04173298180103302
+      ]
+    },
+    {
+      "tile_roi_xywh": [
+        0,
+        256,
+        512,
+        512
+      ],
+      "phase_moving_relative_to_reference_xy": [
+        0.10224572032490187,
+        0.10886022613297541
+      ],
+      "phase_response": 0.47335472851409577,
+      "ecc_correlation": 0.7501584148742438,
+      "ecc_moving_relative_to_reference_xy": [
+        -0.04723336547613144,
+        0.2037910670042038
+      ]
+    },
+    {
+      "tile_roi_xywh": [
+        256,
+        256,
+        512,
+        512
+      ],
+      "phase_moving_relative_to_reference_xy": [
+        0.10084450384459842,
+        0.15056435094342646
+      ],
+      "phase_response": 0.7809339410159737,
+      "ecc_correlation": 0.9689403539756443,
+      "ecc_moving_relative_to_reference_xy": [
+        0.009953186847269535,
+        0.08517829328775406
+      ]
+    },
+    {
+      "tile_roi_xywh": [
+        512,
+        256,
+        512,
+        512
+      ],
+      "phase_moving_relative_to_reference_xy": [
+        0.10966246891359788,
+        0.09340599542997552
+      ],
+      "phase_response": 0.8117258013226092,
+      "ecc_correlation": 0.9668888509647582,
+      "ecc_moving_relative_to_reference_xy": [
+        0.02567501924932003,
+        0.00798211619257927
+      ]
+    },
+    {
+      "tile_roi_xywh": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "phase_moving_relative_to_reference_xy": [
+        0.08178694790186114,
+        0.02249830694043453
+      ],
+      "phase_response": 0.5516228079795837,
+      "ecc_correlation": 0.828580311291557,
+      "ecc_moving_relative_to_reference_xy": [
+        -0.05830836296081543,
+        0.037090834230184555
+      ]
+    },
+    {
+      "tile_roi_xywh": [
+        256,
+        512,
+        512,
+        512
+      ],
+      "phase_moving_relative_to_reference_xy": [
+        0.06151776057021152,
+        0.09999353657985921
+      ],
+      "phase_response": 0.7596763205947354,
+      "ecc_correlation": 0.9505260276205569,
+      "ecc_moving_relative_to_reference_xy": [
+        0.014447302557528019,
+        0.020949358120560646
+      ]
+    },
+    {
+      "tile_roi_xywh": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "phase_moving_relative_to_reference_xy": [
+        0.05197445391965516,
+        0.0054472652145136635
+      ],
+      "phase_response": 0.6567691405070946,
+      "ecc_correlation": 0.9018237625835519,
+      "ecc_moving_relative_to_reference_xy": [
+        0.03232783079147339,
+        0.0031982536893337965
+      ]
+    }
+  ],
+  "coarse_scales": [
+    {
+      "phase_moving_relative_to_reference_xy": [
+        0.04257630734926465,
+        0.048599524020801255
+      ],
+      "phase_response": 0.6660434816149063,
+      "ecc_correlation": 0.9029861205272938,
+      "ecc_moving_relative_to_reference_xy": [
+        0.018797114491462708,
+        0.10735205560922623
+      ],
+      "downsample_factor": 2,
+      "phase_shift_in_source_pixels": [
+        0.0851526146985293,
+        0.09719904804160251
+      ],
+      "ecc_shift_in_source_pixels": [
+        0.037594228982925415,
+        0.21470411121845245
+      ]
+    },
+    {
+      "phase_moving_relative_to_reference_xy": [
+        0.06251071204313519,
+        0.07636982502111778
+      ],
+      "phase_response": 0.6458554661367089,
+      "ecc_correlation": 0.8880535263904618,
+      "ecc_moving_relative_to_reference_xy": [
+        -0.0476926751434803,
+        0.10626586526632309
+      ],
+      "downsample_factor": 4,
+      "phase_shift_in_source_pixels": [
+        0.25004284817254074,
+        0.3054793000844711
+      ],
+      "ecc_shift_in_source_pixels": [
+        -0.1907707005739212,
+        0.42506346106529236
+      ]
+    },
+    {
+      "phase_moving_relative_to_reference_xy": [
+        -0.16044028475687355,
+        0.06042460498370161
+      ],
+      "phase_response": 0.6440384774468839,
+      "ecc_correlation": 0.8781267307600931,
+      "ecc_moving_relative_to_reference_xy": [
+        0.003514837007969618,
+        0.008654661476612091
+      ],
+      "downsample_factor": 8,
+      "phase_shift_in_source_pixels": [
+        -1.2835222780549884,
+        0.4833968398696129
+      ],
+      "ecc_shift_in_source_pixels": [
+        0.028118696063756943,
+        0.06923729181289673
+      ]
+    },
+    {
+      "phase_moving_relative_to_reference_xy": [
+        -0.18544975043163703,
+        -0.1976423560030227
+      ],
+      "phase_response": 0.7152341336477548,
+      "ecc_correlation": 0.9060802211261145,
+      "ecc_moving_relative_to_reference_xy": [
+        -0.27371227741241455,
+        -0.20444120466709137
+      ],
+      "downsample_factor": 16,
+      "phase_shift_in_source_pixels": [
+        -2.9671960069061925,
+        -3.1622776960483634
+      ],
+      "ecc_shift_in_source_pixels": [
+        -4.379396438598633,
+        -3.271059274673462
+      ]
+    }
+  ]
+}

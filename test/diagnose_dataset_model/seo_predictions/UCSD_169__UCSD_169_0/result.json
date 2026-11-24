@@ -1,0 +1,191 @@
+{
+  "key": "UCSD_169/UCSD_169_0",
+  "shape": [
+    1526,
+    1537
+  ],
+  "agreement_valid_fraction": 0.8522461672796233,
+  "nir_valid_fraction": 0.9920228935706483,
+  "modes": {
+    "nir_minmax": {
+      "agreement_metrics": {
+        "tp": 19250,
+        "fn": 13648,
+        "fp": 2603,
+        "tn": 1963410,
+        "ber_percent": 20.80910227326763,
+        "shadow_miss_percent": 41.48580460818287,
+        "background_false_positive_percent": 0.13239993835239136,
+        "shadow_iou": 0.542238246809949
+      },
+      "min_metrics_certain": {
+        "tp": 23669,
+        "fn": 32546,
+        "fp": 15185,
+        "tn": 2096491,
+        "ber_percent": 29.30733826506076,
+        "shadow_miss_percent": 57.89557947167127,
+        "background_false_positive_percent": 0.7190970584502546,
+        "shadow_iou": 0.3314985994397759
+      },
+      "max_metrics_certain": {
+        "tp": 31832,
+        "fn": 146729,
+        "fp": 7022,
+        "tn": 1982308,
+        "ber_percent": 41.26301103532918,
+        "shadow_miss_percent": 82.17303890547208,
+        "background_false_positive_percent": 0.3529831651862687,
+        "shadow_iou": 0.17152433143121945
+      },
+      "shift_vs_min": {
+        "best": {
+          "dx": 0,
+          "dy": 0,
+          "iou": 0.3360323886639676
+        },
+        "unshifted": {
+          "dx": 0,
+          "dy": 0,
+          "iou": 0.3360323886639676
+        },
+        "note": "Exploratory 4-pixel-grid fit on same sample; positive dx shifts prediction right"
+      },
+      "shift_vs_max": {
+        "best": {
+          "dx": 0,
+          "dy": 0,
+          "iou": 0.17038818275506698
+        },
+        "unshifted": {
+          "dx": 0,
+          "dy": 0,
+          "iou": 0.17038818275506698
+        },
+        "note": "Exploratory 4-pixel-grid fit on same sample; positive dx shifts prediction right"
+      }
+    },
+    "nir_disabled": {
+      "agreement_metrics": {
+        "tp": 15463,
+        "fn": 17435,
+        "fp": 1600,
+        "tn": 1964413,
+        "ber_percent": 26.539262832572653,
+        "shadow_miss_percent": 52.997142683445794,
+        "background_false_positive_percent": 0.08138298169951062,
+        "shadow_iou": 0.4482288828337875
+      },
+      "min_metrics_certain": {
+        "tp": 18936,
+        "fn": 37279,
+        "fp": 7081,
+        "tn": 2104595,
+        "ber_percent": 33.32518326645209,
+        "shadow_miss_percent": 66.31504046962554,
+        "background_false_positive_percent": 0.33532606327864695,
+        "shadow_iou": 0.2991658240647118
+      },
+      "max_metrics_certain": {
+        "tp": 20944,
+        "fn": 157617,
+        "fp": 5073,
+        "tn": 1984257,
+        "ber_percent": 44.262842744168054,
+        "shadow_miss_percent": 88.27067500742044,
+        "background_false_positive_percent": 0.2550104809156852,
+        "shadow_iou": 0.11405295315682282
+      },
+      "shift_vs_min": {
+        "best": {
+          "dx": 0,
+          "dy": 0,
+          "iou": 0.3008625063419584
+        },
+        "unshifted": {
+          "dx": 0,
+          "dy": 0,
+          "iou": 0.3008625063419584
+        },
+        "note": "Exploratory 4-pixel-grid fit on same sample; positive dx shifts prediction right"
+      },
+      "shift_vs_max": {
+        "best": {
+          "dx": 0,
+          "dy": 0,
+          "iou": 0.11307972902553413
+        },
+        "unshifted": {
+          "dx": 0,
+          "dy": 0,
+          "iou": 0.11307972902553413
+        },
+        "note": "Exploratory 4-pixel-grid fit on same sample; positive dx shifts prediction right"
+      }
+    },
+    "older_no_nir": {
+      "agreement_metrics": {
+        "tp": 26078,
+        "fn": 6820,
+        "fp": 28790,
+        "tn": 1937223,
+        "ber_percent": 11.097564268599678,
+        "shadow_miss_percent": 20.730743510243784,
+        "background_false_positive_percent": 1.4643850269555696,
+        "shadow_iou": 0.42274024121385034
+      },
+      "min_metrics_certain": {
+        "tp": 31366,
+        "fn": 24849,
+        "fp": 115471,
+        "tn": 1996205,
+        "ber_percent": 24.835860085344365,
+        "shadow_miss_percent": 44.20350440273948,
+        "background_false_positive_percent": 5.46821576794925,
+        "shadow_iou": 0.1826939878615612
+      },
+      "max_metrics_certain": {
+        "tp": 112759,
+        "fn": 65802,
+        "fp": 34078,
+        "tn": 1955252,
+        "ber_percent": 19.282155588847363,
+        "shadow_miss_percent": 36.851272114291476,
+        "background_false_positive_percent": 1.7130390634032564,
+        "shadow_iou": 0.5302837202959005
+      },
+      "shift_vs_min": {
+        "best": {
+          "dx": 0,
+          "dy": 4,
+          "iou": 0.19514978601997146
+        },
+        "unshifted": {
+          "dx": 0,
+          "dy": 0,
+          "iou": 0.18149499485452333
+        },
+        "note": "Exploratory 4-pixel-grid fit on same sample; positive dx shifts prediction right"
+      },
+      "shift_vs_max": {
+        "best": {
+          "dx": 0,
+          "dy": 0,
+          "iou": 0.5257584860318414
+        },
+        "unshifted": {
+          "dx": 0,
+          "dy": 0,
+          "iou": 0.5257584860318414
+        },
+        "note": "Exploratory 4-pixel-grid fit on same sample; positive dx shifts prediction right"
+      }
+    }
+  },
+  "zoom": {
+    "x": 203,
+    "y": 0,
+    "size": 512,
+    "selection": "Centroid of largest Max shadow component"
+  }
+}

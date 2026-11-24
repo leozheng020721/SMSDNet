@@ -1,0 +1,78 @@
+{
+  "components": {
+    "max_shadow": {
+      "bytes": 888804866,
+      "files": 17701
+    },
+    "max_uncertainty": {
+      "bytes": 762514728,
+      "files": 17701
+    },
+    "min_shadow": {
+      "bytes": 415030069,
+      "files": 19163
+    },
+    "min_uncertainty": {
+      "bytes": 674640230,
+      "files": 19163
+    },
+    "nir": {
+      "bytes": 119105969283,
+      "files": 19584
+    },
+    "nir_valid": {
+      "bytes": 147203226,
+      "files": 19584
+    },
+    "rgb": {
+      "bytes": 86108634691,
+      "files": 20275
+    }
+  },
+  "expected_counts": {
+    "train": 14183,
+    "val": 3236
+  },
+  "layout": "Extract SEO/ and segformer/ to the same parent, then cd segformer",
+  "paired_rgb_max": 17700,
+  "payload_bytes": 208102797093,
+  "payload_files": 133171,
+  "portable_manifest_records": 19584,
+  "random_seed": 42,
+  "source_manifest_records": 20275,
+  "source_manifest_sha256": "2d87522ca1318fdccfc54f537c07f4427ef5c416aceb960f13c899dbe2b1fe2e",
+  "split_details": {
+    "train": {
+      "after_min": 14183,
+      "missing_examples": [
+        "OMA_410/OMA_410_0",
+        "OMA_410/OMA_410_18",
+        "OMA_410/OMA_410_19",
+        "OMA_410/OMA_410_1",
+        "OMA_410/OMA_410_20"
+      ],
+      "missing_min": 25,
+      "rgb_max_before_nir": 14422,
+      "strict_nir_before_min": 14208
+    },
+    "val": {
+      "after_min": 3236,
+      "missing_examples": [],
+      "missing_min": 0,
+      "rgb_max_before_nir": 3278,
+      "strict_nir_before_min": 3236
+    }
+  },
+  "split_key_sha256": {
+    "train": "d40c107f53478014e65bc663d96df8fd97996b27bd81662a22d3f44c4deb1beb",
+    "val": "e379a00074b3b407193e34f92de6e54fa7488b7eed2ec961944831cd2c821d90"
+  },
+  "supervision": {
+    "ignore_uncertainty": true,
+    "max_root": "shadows_max/shadow_max_compressed",
+    "min_root": "shadows_min/shadows",
+    "missing_policy": "skip",
+    "mode": "minmax_agreement"
+  },
+  "val_ratio": 0.2
+}

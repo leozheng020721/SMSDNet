@@ -1,0 +1,38 @@
+{
+  "sample_count": 3,
+  "by_cohort": {
+    "failed_matching": {
+      "n": 3,
+      "direct_loftr": {
+        "accepted": 0
+      },
+      "pan_classical": {
+        "accepted": 0
+      },
+      "pan_loftr": {
+        "accepted": 0
+      },
+      "pan_any": {
+        "accepted": 0
+      }
+    }
+  },
+  "by_city": {
+    "JAX": {
+      "n": 3,
+      "direct_loftr": {
+        "accepted": 0
+      },
+      "pan_classical": {
+        "accepted": 0
+      },
+      "pan_loftr": {
+        "accepted": 0
+      },
+      "pan_any": {
+        "accepted": 0
+      }
+    }
+  },
+  "pan_grid_verified": 2
+}

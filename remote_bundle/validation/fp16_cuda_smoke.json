@@ -1,0 +1,70 @@
+{
+  "torch_version": "2.5.1+cu121",
+  "cuda_version": "12.1",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "free_bytes_before_model": 11801722880,
+  "total_bytes": 12884246528,
+  "checkpoint_load": {
+    "loaded": 719,
+    "skipped": 0,
+    "new": 0
+  },
+  "training_size": [
+    2,
+    3,
+    128,
+    128
+  ],
+  "max_training_steps": 3,
+  "mixup_probability": 1.0,
+  "initial_scale": 65536.0,
+  "steps": [
+    {
+      "attempt": 1,
+      "scale_before": 65536.0,
+      "scale_after": 65536.0,
+      "statistics": {
+        "main": 1.2120919227600098,
+        "aux_rgb": 1.0885852575302124,
+        "aux_hsv": 1.249106526374817,
+        "aux_lab": 1.1280550956726074,
+        "aux_nir": 0.8392808437347412,
+        "aux": 1.0762569904327393,
+        "total": 1.6425946950912476,
+        "mixup_fraction": 1.0,
+        "mixup_lambda": 0.9999948740005493
+      },
+      "optimizer_updated": true,
+      "finite_losses": true,
+      "finite_parameters": true
+    }
+  ],
+  "actual_optimizer_updates": 1,
+  "successful_finite_gradient_checks": 1,
+  "probe_parameter_changed": true,
+  "free_bytes_before_native512_eval": 11520704512,
+  "native512_eval": {
+    "status": "passed",
+    "input_size": [
+      1,
+      3,
+      512,
+      512
+    ],
+    "output_size": [
+      1,
+      2,
+      512,
+      512
+    ],
+    "output_dtype": "torch.float32",
+    "classifier_conv_dtypes": [
+      "torch.float16"
+    ],
+    "finite_output": true
+  },
+  "peak_allocated_bytes": 959135232,
+  "peak_reserved_bytes": 991952896,
+  "status": "passed",
+  "elapsed_seconds": 7.82799999974668
+}

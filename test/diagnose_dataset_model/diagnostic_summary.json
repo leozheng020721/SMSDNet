@@ -1,0 +1,64 @@
+{
+  "sample_count": 6,
+  "aggregate_agreement_metrics": {
+    "nir_minmax": {
+      "tp": 252023,
+      "fn": 38765,
+      "fp": 35555,
+      "tn": 10119514,
+      "ber_percent": 6.840569249633652,
+      "shadow_miss_percent": 13.331017786153486,
+      "background_false_positive_percent": 0.3501207131138154,
+      "shadow_iou": 0.7722641515215586
+    },
+    "nir_disabled": {
+      "tp": 244563,
+      "fn": 46225,
+      "fp": 30707,
+      "tn": 10124362,
+      "ber_percent": 8.09942082984707,
+      "shadow_miss_percent": 15.89646065174629,
+      "background_false_positive_percent": 0.30238100794785344,
+      "shadow_iou": 0.7607054542061308
+    },
+    "older_no_nir": {
+      "tp": 260708,
+      "fn": 30080,
+      "fp": 278806,
+      "tn": 9876263,
+      "ber_percent": 6.544895920044799,
+      "shadow_miss_percent": 10.34430581729645,
+      "background_false_positive_percent": 2.745486022793149,
+      "shadow_iou": 0.4577084730527358
+    }
+  },
+  "local_boundary_example": {
+    "key": "JAX_231/JAX_231_24",
+    "y": 400,
+    "x_search": [
+      330,
+      420
+    ],
+    "main_shadow_start_x": {
+      "strong_dark_gray_lt40": 347,
+      "min": 357,
+      "max": 346,
+      "nir_minmax": 352,
+      "nir_disabled": 353,
+      "older_no_nir": 348
+    },
+    "edge_selection": "Start of longest contiguous shadow run in x_search",
+    "uncertainty": "Brightness threshold is a visible-edge diagnostic, not manually annotated ground truth"
+  },
+  "max_shadow_exclusion_fraction_range": [
+    0.7554470691163605,
+    0.844761620977354
+  ],
+  "limits": [
+    "Small diagnostic sample, not full SEO validation or independent manual truth",
+    "NIR disabled is same-checkpoint sensitivity, not retrained ablation",
+    "Older noNIR checkpoint has different training protocol; comparison is confounded",
+    "Shift search fits auto labels on same samples, not a validated geometric correction"
+  ],
+  "source_files_unchanged": true
+}

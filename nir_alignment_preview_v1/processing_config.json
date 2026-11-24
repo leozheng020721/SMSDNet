@@ -1,0 +1,21 @@
+{
+  "version": "seo-nir-rgb-grid-v1",
+  "source_root": "E:\\Dataset\\SEO",
+  "options": {
+    "max_features": 5000,
+    "ratio": 0.75,
+    "ransac_threshold": 1.5,
+    "min_matches": 20,
+    "min_inliers": 15,
+    "min_inlier_ratio": 0.6,
+    "min_coverage": 0.05,
+    "max_holdout_median": 0.75,
+    "max_holdout_p90": 3.0,
+    "min_holdout_fraction": 0.65,
+    "min_valid_fraction": 0.1,
+    "seed": 42
+  },
+  "reference": "current pansharpened_he RGB pixel grid",
+  "nir_units": "raw_DN",
+  "georeferencing": "pixel alignment only; no unverified RPC/CRS copied"
+}

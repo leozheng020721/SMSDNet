@@ -1,0 +1,746 @@
+[
+  {
+    "key": "JAX_436/JAX_436_8",
+    "source_size_wh": [
+      370,
+      370
+    ],
+    "pan_size_wh": [
+      1479,
+      1481
+    ],
+    "same_source_id": true,
+    "source_id": "VNIR: 1040010007020F00",
+    "source_acquisition": "20150121161253",
+    "pan_acquisition": "20150121161253",
+    "dsm": {
+      "path": "E:\\Dataset\\SEO\\rdsm_max_compressed\\JAX_436\\JAX_436_FL_Peninsular_FDEM_Duval_2018_rdsm_max.tif",
+      "median_height_m": -22.540390014648438,
+      "p5_p95_height_m": [
+        -24.15179271697998,
+        -9.66025447845459
+      ],
+      "center_lonlat": [
+        -81.64241711769331,
+        30.33475167794354
+      ],
+      "height_caution": "DSM CRS declares ellipsoidal height; median is a plane approximation"
+    },
+    "planes": [
+      {
+        "height_m": -119.0,
+        "H_rpc_plane": [
+          [
+            4.000001801221134,
+            -2.9064143506110687e-08,
+            -1.0005776070783239
+          ],
+          [
+            -1.4678919573453244e-07,
+            4.000003408285682,
+            1.4914387070571007
+          ],
+          [
+            1.3850522128199404e-10,
+            1.838115837794268e-11,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 2.7806551258215085e-05,
+        "manual_polynomial_difference_max_pan_px": 7.275957614183426e-12,
+        "rpc_plane_fit_max_pan_px": 2.999558903720308e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -81.64223265250328,
+          30.335104520876634
+        ],
+        "image_correspondence_comparison": {
+          "strategy": "sift_gray_s2",
+          "points": 83,
+          "reference_passes_old_random_QA_only": true,
+          "rpc_median_pan_px": 1353.1371767796854,
+          "rpc_p90_pan_px": 1353.9316395895949,
+          "reference_median_pan_px": 0.722237704933369
+        }
+      },
+      {
+        "height_m": -19.0,
+        "H_rpc_plane": [
+          [
+            4.000001654291725,
+            -3.380285143864483e-08,
+            -1.0006300636995848
+          ],
+          [
+            -2.329985330130459e-07,
+            4.000003298642777,
+            1.4914717407804534
+          ],
+          [
+            1.2320911816641424e-11,
+            3.9794533504247245e-11,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 5.106033906106418e-06,
+        "manual_polynomial_difference_max_pan_px": 5.475883235154604e-12,
+        "rpc_plane_fit_max_pan_px": 1.4534800334165482e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -81.64243139037615,
+          30.334741048486457
+        ],
+        "image_correspondence_comparison": {
+          "strategy": "sift_gray_s2",
+          "points": 83,
+          "reference_passes_old_random_QA_only": true,
+          "rpc_median_pan_px": 1353.1371672948421,
+          "rpc_p90_pan_px": 1353.931632528588,
+          "reference_median_pan_px": 0.722237704933369
+        }
+      },
+      {
+        "height_m": 81.0,
+        "H_rpc_plane": [
+          [
+            4.000001761972151,
+            -4.4299896966996794e-08,
+            -1.000659780746334
+          ],
+          [
+            -1.4683124207452996e-07,
+            4.000003369367723,
+            1.4914782832278743
+          ],
+          [
+            1.4368102553351876e-10,
+            4.255234021395671e-11,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 1.5202894172651473e-05,
+        "manual_polynomial_difference_max_pan_px": 9.106308604942018e-12,
+        "rpc_plane_fit_max_pan_px": 3.924252817871118e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -81.64263012050965,
+          30.334377587068843
+        ],
+        "image_correspondence_comparison": {
+          "strategy": "sift_gray_s2",
+          "points": 83,
+          "reference_passes_old_random_QA_only": true,
+          "rpc_median_pan_px": 1353.1371387590536,
+          "rpc_p90_pan_px": 1353.9316027368177,
+          "reference_median_pan_px": 0.722237704933369
+        }
+      },
+      {
+        "height_m": -22.540390014648438,
+        "H_rpc_plane": [
+          [
+            4.000001657364909,
+            -4.7741269152945815e-08,
+            -1.0006269164443509
+          ],
+          [
+            -2.332236346238497e-07,
+            4.000003285152207,
+            1.491472092845526
+          ],
+          [
+            1.0887545071164462e-11,
+            3.007028764497838e-11,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 5.867673408582597e-06,
+        "manual_polynomial_difference_max_pan_px": 7.279509460923746e-12,
+        "rpc_plane_fit_max_pan_px": 1.3009847603115643e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -81.64242435441233,
+          30.334753916639364
+        ],
+        "image_correspondence_comparison": {
+          "strategy": "sift_gray_s2",
+          "points": 83,
+          "reference_passes_old_random_QA_only": true,
+          "rpc_median_pan_px": 1353.1371670267065,
+          "rpc_p90_pan_px": 1353.9316324811111,
+          "reference_median_pan_px": 0.722237704933369
+        }
+      }
+    ],
+    "caution": "RPC-grid fit and roundtrip are model self-consistency checks, not image registration validation",
+    "height_sensitivity_max_pan_px": 7.174629205962793e-05,
+    "image_H_reference": [
+      [
+        3.997267361632208,
+        -0.042400738652394604,
+        17.798535909200154
+      ],
+      [
+        0.005268972853699402,
+        3.9146465487567403,
+        1353.6730420682284
+      ],
+      [
+        2.449328736532737e-06,
+        -7.614045030775888e-05,
+        1.0
+      ]
+    ],
+    "RPC_vs_image_H_grid_median_pan_px": 1366.1901163916782
+  },
+  {
+    "key": "JAX_486/JAX_486_15",
+    "source_size_wh": [
+      376,
+      390
+    ],
+    "pan_size_wh": [
+      1505,
+      1559
+    ],
+    "same_source_id": true,
+    "source_id": "VNIR: 104001000A22A000",
+    "source_acquisition": "20150502161943",
+    "pan_acquisition": "20150502161943",
+    "dsm": {
+      "path": "E:\\Dataset\\SEO\\rdsm_max_compressed\\JAX_486\\JAX_486_FL_Peninsular_FDEM_Duval_2018_rdsm_max.tif",
+      "median_height_m": -15.670804977416992,
+      "p5_p95_height_m": [
+        -23.257801055908203,
+        -0.31780046224594116
+      ],
+      "center_lonlat": [
+        -81.63178273333975,
+        30.298707882680958
+      ],
+      "height_caution": "DSM CRS declares ellipsoidal height; median is a plane approximation"
+    },
+    "planes": [
+      {
+        "height_m": -119.0,
+        "H_rpc_plane": [
+          [
+            3.9999988294764166,
+            5.650509500190293e-08,
+            -1.0006220530625265
+          ],
+          [
+            3.87681693074151e-08,
+            3.999999815609439,
+            0.49993084119362036
+          ],
+          [
+            4.902775541860116e-11,
+            9.017907294055567e-11,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 1.9340139899468754e-05,
+        "manual_polynomial_difference_max_pan_px": 2.2737367544323206e-12,
+        "rpc_plane_fit_max_pan_px": 2.1306588089142646e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -81.63155049584311,
+          30.29897176112733
+        ]
+      },
+      {
+        "height_m": -19.0,
+        "H_rpc_plane": [
+          [
+            3.999998929792684,
+            2.994411738059e-08,
+            -1.0005772659047556
+          ],
+          [
+            -1.676343713372724e-08,
+            3.9999997579949773,
+            0.4999322037034004
+          ],
+          [
+            -2.6019683626074968e-11,
+            7.119678320824376e-11,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 2.388549094542053e-06,
+        "manual_polynomial_difference_max_pan_px": 1.8189894035458565e-12,
+        "rpc_plane_fit_max_pan_px": 5.06175945812116e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -81.63179157877528,
+          30.29871001233268
+        ]
+      },
+      {
+        "height_m": 81.0,
+        "H_rpc_plane": [
+          [
+            3.9999990262471865,
+            9.096120387540378e-10,
+            -1.0005404970755463
+          ],
+          [
+            9.92440182897429e-08,
+            3.9999998526502307,
+            0.4998997754553281
+          ],
+          [
+            9.922761415708888e-11,
+            4.8299312151801085e-11,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 5.821736583460086e-06,
+        "manual_polynomial_difference_max_pan_px": 2.2850771577215914e-12,
+        "rpc_plane_fit_max_pan_px": 2.167633454937193e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -81.6320326530924,
+          30.298448271196158
+        ]
+      },
+      {
+        "height_m": -15.670804977416992,
+        "H_rpc_plane": [
+          [
+            3.99999892357605,
+            3.387541617735814e-08,
+            -1.0005767577681122
+          ],
+          [
+            -1.6360565485828797e-08,
+            3.9999997453328406,
+            0.4999328640912516
+          ],
+          [
+            -2.5552384634433505e-11,
+            6.269141175928152e-11,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 1.988273322091908e-06,
+        "manual_polynomial_difference_max_pan_px": 1.639614891002561e-12,
+        "rpc_plane_fit_max_pan_px": 4.639464383863263e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -81.63179960474828,
+          30.29870129833651
+        ]
+      }
+    ],
+    "caution": "RPC-grid fit and roundtrip are model self-consistency checks, not image registration validation",
+    "height_sensitivity_max_pan_px": 0.00012542822535851242,
+    "image_H_reference": [
+      [
+        3.85862844,
+        -0.05461169,
+        -19.11128819
+      ],
+      [
+        -0.00016379,
+        3.81998731,
+        -1304.06943002
+      ],
+      [
+        -6.275e-06,
+        -8.9549e-05,
+        1.0
+      ]
+    ],
+    "RPC_vs_image_H_grid_median_pan_px": 1350.8994261939145
+  },
+  {
+    "key": "OMA_930/OMA_930_26",
+    "source_size_wh": [
+      397,
+      387
+    ],
+    "pan_size_wh": [
+      1587,
+      1549
+    ],
+    "same_source_id": true,
+    "source_id": "VNIR: 10400100096A5A00",
+    "source_acquisition": "20150405172652",
+    "pan_acquisition": "20150405172652",
+    "dsm": {
+      "path": "E:\\Dataset\\SEO\\rdsm_max_compressed\\OMA_930\\OMA_930_IA_FullState_rdsm_max.tif",
+      "median_height_m": 311.0461730957031,
+      "p5_p95_height_m": [
+        291.8363464355469,
+        335.9843933105468
+      ],
+      "center_lonlat": [
+        -95.81886968004054,
+        41.26102201584334
+      ],
+      "height_caution": "DSM CRS declares ellipsoidal height; median is a plane approximation"
+    },
+    "planes": [
+      {
+        "height_m": 215.0,
+        "H_rpc_plane": [
+          [
+            4.000000605857106,
+            2.42394837439279e-07,
+            0.001927545081644231
+          ],
+          [
+            8.971119773909841e-08,
+            4.000000215489095,
+            0.5002350460433771
+          ],
+          [
+            2.573999761375876e-11,
+            6.934363373459566e-11,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 0.000500843827732139,
+        "manual_polynomial_difference_max_pan_px": 1.4999770885397668e-11,
+        "rpc_plane_fit_max_pan_px": 1.8346920060206238e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -95.81862575035606,
+          41.26087183093055
+        ],
+        "image_correspondence_comparison": {
+          "strategy": "sift_gray_clahe_s2",
+          "points": 140,
+          "reference_passes_old_random_QA_only": true,
+          "rpc_median_pan_px": 1354.8600918800682,
+          "rpc_p90_pan_px": 1355.6030991559785,
+          "reference_median_pan_px": 0.695900184045797
+        }
+      },
+      {
+        "height_m": 315.0,
+        "H_rpc_plane": [
+          [
+            4.000000912874171,
+            3.1388004230752415e-07,
+            0.0028026027242585125
+          ],
+          [
+            1.8391530593927384e-07,
+            4.000000111063848,
+            0.5004687279742911
+          ],
+          [
+            -4.104692500264283e-11,
+            4.170894938172101e-13,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 0.0007833323806079152,
+        "manual_polynomial_difference_max_pan_px": 8.134767913360665e-12,
+        "rpc_plane_fit_max_pan_px": 2.1078746295391574e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -95.81888096181355,
+          41.2610300096834
+        ],
+        "image_correspondence_comparison": {
+          "strategy": "sift_gray_clahe_s2",
+          "points": 140,
+          "reference_passes_old_random_QA_only": true,
+          "rpc_median_pan_px": 1354.8603810425939,
+          "rpc_p90_pan_px": 1355.6033561737363,
+          "reference_median_pan_px": 0.695900184045797
+        }
+      },
+      {
+        "height_m": 415.0,
+        "H_rpc_plane": [
+          [
+            4.000001317820318,
+            3.8973952954136727e-07,
+            0.003483055365021537
+          ],
+          [
+            2.7950450799098347e-07,
+            4.000000118758704,
+            0.5006761838303029
+          ],
+          [
+            -4.687895096245319e-11,
+            -4.809431148047904e-12,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 0.0010144485865817808,
+        "manual_polynomial_difference_max_pan_px": 1.55414522765887e-11,
+        "rpc_plane_fit_max_pan_px": 1.9229510867770045e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -95.81913616748187,
+          41.26118818306011
+        ],
+        "image_correspondence_comparison": {
+          "strategy": "sift_gray_clahe_s2",
+          "points": 140,
+          "reference_passes_old_random_QA_only": true,
+          "rpc_median_pan_px": 1354.860625390704,
+          "rpc_p90_pan_px": 1355.6035825439706,
+          "reference_median_pan_px": 0.695900184045797
+        }
+      },
+      {
+        "height_m": 311.0461730957031,
+        "H_rpc_plane": [
+          [
+            4.0000008783408445,
+            2.9198511493937115e-07,
+            0.002776833350199854
+          ],
+          [
+            1.859300462792034e-07,
+            4.000000077893018,
+            0.5004619920560425
+          ],
+          [
+            -3.879014658281557e-11,
+            -1.3526927215967367e-11,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 0.0007731623219265291,
+        "manual_polynomial_difference_max_pan_px": 1.4665161412810538e-11,
+        "rpc_plane_fit_max_pan_px": 2.0360548412283313e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -95.81887087130384,
+          41.26102375567135
+        ],
+        "image_correspondence_comparison": {
+          "strategy": "sift_gray_clahe_s2",
+          "points": 140,
+          "reference_passes_old_random_QA_only": true,
+          "rpc_median_pan_px": 1354.8603692564893,
+          "rpc_p90_pan_px": 1355.603344611896,
+          "reference_median_pan_px": 0.695900184045797
+        }
+      }
+    ],
+    "caution": "RPC-grid fit and roundtrip are model self-consistency checks, not image registration validation",
+    "height_sensitivity_max_pan_px": 0.0011497425538763916,
+    "image_H_reference": [
+      [
+        4.020695229522379,
+        0.01610420719736062,
+        -6.263865008033119
+      ],
+      [
+        0.0012347167375859585,
+        4.010908681105359,
+        -1358.002229823918
+      ],
+      [
+        -1.4645681627022357e-06,
+        1.56175634902431e-05,
+        1.0
+      ]
+    ],
+    "RPC_vs_image_H_grid_median_pan_px": 1354.9134634677273
+  },
+  {
+    "key": "UCSD_291/UCSD_291_3",
+    "source_size_wh": [
+      389,
+      400
+    ],
+    "pan_size_wh": [
+      1555,
+      1599
+    ],
+    "same_source_id": true,
+    "source_id": "VNIR: 1040010004B41D00",
+    "source_acquisition": "20141122183428",
+    "pan_acquisition": "20141122183428",
+    "dsm": {
+      "path": "E:\\Dataset\\SEO\\rdsm_max_compressed\\UCSD_291\\UCSD_291_CA_SanDiegoQL2_2014_rdsm_max.tif",
+      "median_height_m": 12.402941703796387,
+      "p5_p95_height_m": [
+        -12.55967926979065,
+        61.0050027847288
+      ],
+      "center_lonlat": [
+        -117.2160281521161,
+        32.89836943136754
+      ],
+      "height_caution": "DSM CRS declares ellipsoidal height; median is a plane approximation"
+    },
+    "planes": [
+      {
+        "height_m": -38.0,
+        "H_rpc_plane": [
+          [
+            3.999998863354148,
+            2.5481032213417083e-08,
+            -2.000226468676352
+          ],
+          [
+            6.422972774426224e-08,
+            3.999999873560826,
+            0.5004429264678719
+          ],
+          [
+            5.726460934357048e-11,
+            9.538027460090712e-12,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 1.476084682943295e-06,
+        "manual_polynomial_difference_max_pan_px": 7.332580706405269e-12,
+        "rpc_plane_fit_max_pan_px": 2.1188957661967408e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -117.21593466031699,
+          32.898451283822666
+        ],
+        "image_correspondence_comparison": {
+          "strategy": "orb_green_clahe_s2",
+          "points": 1255,
+          "reference_passes_old_random_QA_only": true,
+          "rpc_median_pan_px": 647.8177111343396,
+          "rpc_p90_pan_px": 650.8088094345193,
+          "reference_median_pan_px": 1.8410136715661194
+        }
+      },
+      {
+        "height_m": 62.0,
+        "H_rpc_plane": [
+          [
+            3.999998809824162,
+            1.1019537811044845e-08,
+            -2.000211112773929
+          ],
+          [
+            4.337826305150931e-08,
+            3.9999998684625853,
+            0.5004357983029839
+          ],
+          [
+            4.922849739168338e-11,
+            -3.3565178637908916e-12,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 2.855527532459813e-06,
+        "manual_polynomial_difference_max_pan_px": 5.4617031080235e-12,
+        "rpc_plane_fit_max_pan_px": 2.0380211057979444e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -117.21613659161548,
+          32.89829579963481
+        ],
+        "image_correspondence_comparison": {
+          "strategy": "orb_green_clahe_s2",
+          "points": 1255,
+          "reference_passes_old_random_QA_only": true,
+          "rpc_median_pan_px": 647.8177031570569,
+          "rpc_p90_pan_px": 650.8088033289454,
+          "reference_median_pan_px": 1.8410136715661194
+        }
+      },
+      {
+        "height_m": 162.0,
+        "H_rpc_plane": [
+          [
+            3.999998688077984,
+            1.3684001143635278e-08,
+            -2.0001864431933516
+          ],
+          [
+            6.813166901031572e-08,
+            3.9999998352907515,
+            0.5004216476735391
+          ],
+          [
+            1.49525210524235e-11,
+            -4.881495494821722e-12,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 8.76428986902769e-06,
+        "manual_polynomial_difference_max_pan_px": 9.097788744721836e-12,
+        "rpc_plane_fit_max_pan_px": 1.93545060703828e-05,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -117.21633851607436,
+          32.89814031987978
+        ],
+        "image_correspondence_comparison": {
+          "strategy": "orb_green_clahe_s2",
+          "points": 1255,
+          "reference_passes_old_random_QA_only": true,
+          "rpc_median_pan_px": 647.8177012141497,
+          "rpc_p90_pan_px": 650.8087957155243,
+          "reference_median_pan_px": 1.8410136715661194
+        }
+      },
+      {
+        "height_m": 12.402941703796387,
+        "H_rpc_plane": [
+          [
+            4.000001329910859,
+            -2.0412046383933656e-06,
+            -2.00015895134195
+          ],
+          [
+            8.432021431811771e-07,
+            3.999999626245356,
+            0.5003451131872594
+          ],
+          [
+            2.3919241657353396e-09,
+            -2.0192542232954464e-09,
+            1.0
+          ]
+        ],
+        "rpc_roundtrip_max_source_px": 0.001095050033027164,
+        "manual_polynomial_difference_max_pan_px": 7.290154618149881e-12,
+        "rpc_plane_fit_max_pan_px": 0.0032993796396037136,
+        "projected_grid_inside_pan_fraction": 1.0,
+        "source_center_lonlat": [
+          -117.21603644048443,
+          32.89837291466432
+        ],
+        "image_correspondence_comparison": {
+          "strategy": "orb_green_clahe_s2",
+          "points": 1255,
+          "reference_passes_old_random_QA_only": true,
+          "rpc_median_pan_px": 647.8178585751182,
+          "rpc_p90_pan_px": 650.8089308812937,
+          "reference_median_pan_px": 1.8410136715661194
+        }
+      }
+    ],
+    "caution": "RPC-grid fit and roundtrip are model self-consistency checks, not image registration validation",
+    "height_sensitivity_max_pan_px": 0.0013153094846782923,
+    "image_H_reference": [
+      [
+        3.990579336107887,
+        -0.0009007384065887674,
+        -25.42136284689018
+      ],
+      [
+        -0.0007943779515744762,
+        3.998825669766712,
+        -647.3264768169863
+      ],
+      [
+        -6.436644394875054e-06,
+        3.953296063139173e-07,
+        1.0
+      ]
+    ],
+    "RPC_vs_image_H_grid_median_pan_px": 648.511006077286
+  }
+]

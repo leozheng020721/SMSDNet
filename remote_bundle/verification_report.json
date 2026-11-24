@@ -1,0 +1,27 @@
+{
+  "data_tail_metadata_matches": true,
+  "portable_manifest_matches": true,
+  "first_nir_content_matches_source": true,
+  "code_sources_match_archive": true,
+  "fp16_enabled_in_both_configs": true,
+  "related_tests_passed": 64,
+  "actual_mit_b3_cuda_amp_smoke_passed": true,
+  "archives": [
+    {
+      "name": "seo_data.tar",
+      "bytes": 208207882240,
+      "GiB": 193.909,
+      "MiB": 198562.5,
+      "members": 133173,
+      "sha256": "b60cd620d76754ed75d86ed7a1cc4d922ec0959ff86566fbc41747d679ca295f"
+    },
+    {
+      "name": "segformer_code.tar",
+      "bytes": 560640000,
+      "GiB": 0.522,
+      "MiB": 534.7,
+      "members": 46,
+      "sha256": "58b59705edfbb13ed1fb057bcf045a386e48b94314355187e936ecdea6315ef1"
+    }
+  ]
+}

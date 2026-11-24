@@ -1,0 +1,229 @@
+﻿key,cohort,city,method,accepted,reason,holdout_median_msi_px,holdout_p90_msi_px,valid_fraction,gradient_magnitude_correlation,runtime_error
+JAX_681/JAX_681_15,failed_matching,JAX,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_681/JAX_681_15,failed_matching,JAX,pan_classical,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+JAX_681/JAX_681_15,failed_matching,JAX,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_681/JAX_681_15,failed_matching,JAX,pan_any,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+JAX_659/JAX_659_8,failed_matching,JAX,direct_loftr,False,AlignmentError: Only 5 in-bounds selected correspondences,,,,,False
+JAX_659/JAX_659_8,failed_matching,JAX,pan_classical,False,PAN/RGB grid not verified or insufficient matches,,,,,False
+JAX_659/JAX_659_8,failed_matching,JAX,pan_loftr,False,PAN/RGB grid not verified,,,,,False
+JAX_659/JAX_659_8,failed_matching,JAX,pan_any,False,PAN/RGB grid not verified or insufficient matches,,,,,False
+JAX_418/JAX_418_9,failed_matching,JAX,direct_loftr,False,AlignmentError: Only 15 in-bounds selected correspondences,,,,,False
+JAX_418/JAX_418_9,failed_matching,JAX,pan_classical,False,AlignmentError: Only 0 in-bounds selected correspondences,,,,,False
+JAX_418/JAX_418_9,failed_matching,JAX,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_418/JAX_418_9,failed_matching,JAX,pan_any,False,AlignmentError: Only 0 in-bounds selected correspondences,,,,,False
+JAX_792/JAX_792_15,failed_matching,JAX,direct_loftr,False,AlignmentError: Excessive projective distortion,,,,,False
+JAX_792/JAX_792_15,failed_matching,JAX,pan_classical,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+JAX_792/JAX_792_15,failed_matching,JAX,pan_loftr,False,AlignmentError: Excessive projective distortion,,,,,False
+JAX_792/JAX_792_15,failed_matching,JAX,pan_any,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+JAX_627/JAX_627_8,failed_matching,JAX,direct_loftr,False,AlignmentError: Excessive projective distortion,,,,,False
+JAX_627/JAX_627_8,failed_matching,JAX,pan_classical,False,AlignmentError: Only 1 in-bounds selected correspondences,,,,,False
+JAX_627/JAX_627_8,failed_matching,JAX,pan_loftr,False,AlignmentError: Spatial training inlier support is insufficient,,,,,False
+JAX_627/JAX_627_8,failed_matching,JAX,pan_any,False,AlignmentError: Only 1 in-bounds selected correspondences,,,,,False
+JAX_328/JAX_328_9,failed_matching,JAX,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_328/JAX_328_9,failed_matching,JAX,pan_classical,False,AlignmentError: Only 0 in-bounds selected correspondences,,,,,False
+JAX_328/JAX_328_9,failed_matching,JAX,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_328/JAX_328_9,failed_matching,JAX,pan_any,False,AlignmentError: Only 0 in-bounds selected correspondences,,,,,False
+JAX_697/JAX_697_15,failed_matching,JAX,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_697/JAX_697_15,failed_matching,JAX,pan_classical,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+JAX_697/JAX_697_15,failed_matching,JAX,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_697/JAX_697_15,failed_matching,JAX,pan_any,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+JAX_436/JAX_436_8,failed_matching,JAX,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_436/JAX_436_8,failed_matching,JAX,pan_classical,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_436/JAX_436_8,failed_matching,JAX,pan_loftr,False,AlignmentError: Training inliers do not cover enough two-dimensional image area,,,,,False
+JAX_436/JAX_436_8,failed_matching,JAX,pan_any,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_681/JAX_681_9,failed_matching,JAX,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_681/JAX_681_9,failed_matching,JAX,pan_classical,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+JAX_681/JAX_681_9,failed_matching,JAX,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_681/JAX_681_9,failed_matching,JAX,pan_any,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+JAX_779/JAX_779_15,failed_matching,JAX,direct_loftr,False,AlignmentError: Only 8 in-bounds selected correspondences,,,,,False
+JAX_779/JAX_779_15,failed_matching,JAX,pan_classical,False,AlignmentError: Only 6 in-bounds selected correspondences,,,,,False
+JAX_779/JAX_779_15,failed_matching,JAX,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_779/JAX_779_15,failed_matching,JAX,pan_any,False,AlignmentError: Only 6 in-bounds selected correspondences,,,,,False
+JAX_681/JAX_681_8,failed_matching,JAX,direct_loftr,False,AlignmentError: Excessive projective distortion,,,,,False
+JAX_681/JAX_681_8,failed_matching,JAX,pan_classical,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+JAX_681/JAX_681_8,failed_matching,JAX,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_681/JAX_681_8,failed_matching,JAX,pan_any,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+JAX_500/JAX_500_9,failed_matching,JAX,direct_loftr,False,AlignmentError: Only 8 in-bounds selected correspondences,,,,,False
+JAX_500/JAX_500_9,failed_matching,JAX,pan_classical,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+JAX_500/JAX_500_9,failed_matching,JAX,pan_loftr,False,AlignmentError: Only 10 in-bounds selected correspondences,,,,,False
+JAX_500/JAX_500_9,failed_matching,JAX,pan_any,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+JAX_821/JAX_821_15,failed_matching,JAX,direct_loftr,False,AlignmentError: Only 14 in-bounds selected correspondences,,,,,False
+JAX_821/JAX_821_15,failed_matching,JAX,pan_classical,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+JAX_821/JAX_821_15,failed_matching,JAX,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_821/JAX_821_15,failed_matching,JAX,pan_any,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+JAX_778/JAX_778_8,failed_matching,JAX,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_778/JAX_778_8,failed_matching,JAX,pan_classical,False,AlignmentError: Only 0 in-bounds selected correspondences,,,,,False
+JAX_778/JAX_778_8,failed_matching,JAX,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_778/JAX_778_8,failed_matching,JAX,pan_any,False,AlignmentError: Only 0 in-bounds selected correspondences,,,,,False
+JAX_896/JAX_896_9,failed_matching,JAX,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_896/JAX_896_9,failed_matching,JAX,pan_classical,False,AlignmentError: Only 1 in-bounds selected correspondences,,,,,False
+JAX_896/JAX_896_9,failed_matching,JAX,pan_loftr,False,AlignmentError: Holdout points do not cover enough two-dimensional image area,,,,,False
+JAX_896/JAX_896_9,failed_matching,JAX,pan_any,False,AlignmentError: Only 1 in-bounds selected correspondences,,,,,False
+JAX_767/JAX_767_15,failed_matching,JAX,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+JAX_767/JAX_767_15,failed_matching,JAX,pan_classical,False,AlignmentError: Only 4 in-bounds selected correspondences,,,,,False
+JAX_767/JAX_767_15,failed_matching,JAX,pan_loftr,False,AlignmentError: Excessive projective distortion,,,,,False
+JAX_767/JAX_767_15,failed_matching,JAX,pan_any,False,AlignmentError: Only 4 in-bounds selected correspondences,,,,,False
+JAX_461/JAX_461_11,accepted_control,JAX,direct_loftr,True,,0.1100241164512451,0.2269654710857344,0.9966905092345468,0.8215516409460486,False
+JAX_461/JAX_461_11,accepted_control,JAX,pan_classical,True,,0.03954070229828941,0.8763059780566289,0.9953751320367906,0.8214389665121039,False
+JAX_461/JAX_461_11,accepted_control,JAX,pan_loftr,True,,0.1254866323432736,0.29626055982277255,0.9966905092345468,0.8218846028756875,False
+JAX_461/JAX_461_11,accepted_control,JAX,pan_any,True,,0.03954070229828941,0.8763059780566289,0.9953751320367906,0.8214389665121039,False
+JAX_596/JAX_596_19,accepted_control,JAX,direct_loftr,True,,0.1670449923900516,0.322208820788691,0.9931252261438769,0.6978042899514622,False
+JAX_596/JAX_596_19,accepted_control,JAX,pan_classical,True,,0.20594942182271642,0.7201090052241935,0.9925999397793088,0.6982238539827202,False
+JAX_596/JAX_596_19,accepted_control,JAX,pan_loftr,True,,0.19608797642450876,0.38736926649434344,0.9932244131645467,0.6978128436583163,False
+JAX_596/JAX_596_19,accepted_control,JAX,pan_any,True,,0.19608797642450876,0.38736926649434344,0.9932244131645467,0.6978128436583163,False
+JAX_336/JAX_336_18,accepted_control,JAX,direct_loftr,True,,0.18577516720699525,0.5490870356101166,0.9953365418115708,0.8534788054664209,False
+JAX_336/JAX_336_18,accepted_control,JAX,pan_classical,True,,0.193188071341526,0.6267507879701361,0.9958369757321222,0.8530345841667577,False
+JAX_336/JAX_336_18,accepted_control,JAX,pan_loftr,True,,0.18178467830009984,0.6059254871571137,0.9955059925378335,0.8535443511313862,False
+JAX_336/JAX_336_18,accepted_control,JAX,pan_any,True,,0.18178467830009984,0.6059254871571137,0.9955059925378335,0.8535443511313862,False
+OMA_700/OMA_700_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Only 12 in-bounds selected correspondences,,,,,False
+OMA_700/OMA_700_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+OMA_700/OMA_700_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Excessive projective distortion,,,,,False
+OMA_700/OMA_700_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+OMA_930/OMA_930_26,failed_matching,OMA,direct_loftr,False,AlignmentError: Only 17 in-bounds selected correspondences,,,,,False
+OMA_930/OMA_930_26,failed_matching,OMA,pan_classical,False,AlignmentError: Holdout points do not cover enough two-dimensional image area,,,,,False
+OMA_930/OMA_930_26,failed_matching,OMA,pan_loftr,False,AlignmentError: Training inliers do not cover enough two-dimensional image area,,,,,False
+OMA_930/OMA_930_26,failed_matching,OMA,pan_any,False,AlignmentError: Holdout points do not cover enough two-dimensional image area,,,,,False
+OMA_428/OMA_428_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Only 7 in-bounds selected correspondences,,,,,False
+OMA_428/OMA_428_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 0 in-bounds selected correspondences,,,,,False
+OMA_428/OMA_428_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Only 6 in-bounds selected correspondences,,,,,False
+OMA_428/OMA_428_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 0 in-bounds selected correspondences,,,,,False
+OMA_922/OMA_922_26,failed_matching,OMA,direct_loftr,False,AlignmentError: Only 1 in-bounds selected correspondences,,,,,False
+OMA_922/OMA_922_26,failed_matching,OMA,pan_classical,False,PAN/RGB grid not verified or insufficient matches,,,,,False
+OMA_922/OMA_922_26,failed_matching,OMA,pan_loftr,False,PAN/RGB grid not verified,,,,,False
+OMA_922/OMA_922_26,failed_matching,OMA,pan_any,False,PAN/RGB grid not verified or insufficient matches,,,,,False
+OMA_697/OMA_697_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Only 15 in-bounds selected correspondences,,,,,False
+OMA_697/OMA_697_12,failed_matching,OMA,pan_classical,False,PAN/RGB grid not verified or insufficient matches,,,,,False
+OMA_697/OMA_697_12,failed_matching,OMA,pan_loftr,False,PAN/RGB grid not verified,,,,,False
+OMA_697/OMA_697_12,failed_matching,OMA,pan_any,False,PAN/RGB grid not verified or insufficient matches,,,,,False
+OMA_967/OMA_967_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+OMA_967/OMA_967_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+OMA_967/OMA_967_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+OMA_967/OMA_967_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+OMA_641/OMA_641_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Only 8 in-bounds selected correspondences,,,,,False
+OMA_641/OMA_641_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 1 in-bounds selected correspondences,,,,,False
+OMA_641/OMA_641_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Only 16 in-bounds selected correspondences,,,,,False
+OMA_641/OMA_641_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 1 in-bounds selected correspondences,,,,,False
+OMA_930/OMA_930_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+OMA_930/OMA_930_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+OMA_930/OMA_930_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Only 16 in-bounds selected correspondences,,,,,False
+OMA_930/OMA_930_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+OMA_832/OMA_832_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+OMA_832/OMA_832_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 5 in-bounds selected correspondences,,,,,False
+OMA_832/OMA_832_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+OMA_832/OMA_832_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 5 in-bounds selected correspondences,,,,,False
+OMA_798/OMA_798_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Only 8 in-bounds selected correspondences,,,,,False
+OMA_798/OMA_798_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 1 in-bounds selected correspondences,,,,,False
+OMA_798/OMA_798_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Only 8 in-bounds selected correspondences,,,,,False
+OMA_798/OMA_798_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 1 in-bounds selected correspondences,,,,,False
+OMA_835/OMA_835_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+OMA_835/OMA_835_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 5 in-bounds selected correspondences,,,,,False
+OMA_835/OMA_835_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Excessive projective distortion,,,,,False
+OMA_835/OMA_835_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 5 in-bounds selected correspondences,,,,,False
+OMA_893/OMA_893_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Only 6 in-bounds selected correspondences,,,,,False
+OMA_893/OMA_893_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 4 in-bounds selected correspondences,,,,,False
+OMA_893/OMA_893_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Only 14 in-bounds selected correspondences,,,,,False
+OMA_893/OMA_893_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 4 in-bounds selected correspondences,,,,,False
+OMA_639/OMA_639_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Only 12 in-bounds selected correspondences,,,,,False
+OMA_639/OMA_639_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 10 in-bounds selected correspondences,,,,,False
+OMA_639/OMA_639_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Only 12 in-bounds selected correspondences,,,,,False
+OMA_639/OMA_639_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 10 in-bounds selected correspondences,,,,,False
+OMA_389/OMA_389_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+OMA_389/OMA_389_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+OMA_389/OMA_389_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Only 19 in-bounds selected correspondences,,,,,False
+OMA_389/OMA_389_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+OMA_382/OMA_382_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Only 18 in-bounds selected correspondences,,,,,False
+OMA_382/OMA_382_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+OMA_382/OMA_382_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+OMA_382/OMA_382_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+OMA_387/OMA_387_12,failed_matching,OMA,direct_loftr,False,AlignmentError: Only 17 in-bounds selected correspondences,,,,,False
+OMA_387/OMA_387_12,failed_matching,OMA,pan_classical,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+OMA_387/OMA_387_12,failed_matching,OMA,pan_loftr,False,AlignmentError: Only 17 in-bounds selected correspondences,,,,,False
+OMA_387/OMA_387_12,failed_matching,OMA,pan_any,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+OMA_732/OMA_732_39,accepted_control,OMA,direct_loftr,True,,0.1647915180158623,0.3222914224812601,0.9939123344495373,0.7558290208332751,False
+OMA_732/OMA_732_39,accepted_control,OMA,pan_classical,True,,0.15849844007170133,0.6014334833299521,0.9939123344495373,0.7577888274554144,False
+OMA_732/OMA_732_39,accepted_control,OMA,pan_loftr,True,,0.1749458800626295,0.3563398771512137,0.9939123344495373,0.7556728404637354,False
+OMA_732/OMA_732_39,accepted_control,OMA,pan_any,True,,0.15849844007170133,0.6014334833299521,0.9939123344495373,0.7577888274554144,False
+OMA_93/OMA_93_5,accepted_control,OMA,direct_loftr,True,,0.16394423560741866,0.30040552345798,0.9947339616904834,0.7713934913955227,False
+OMA_93/OMA_93_5,accepted_control,OMA,pan_classical,True,,0.19218580631204138,0.5057885193652333,0.9947339616904834,0.7729189455876643,False
+OMA_93/OMA_93_5,accepted_control,OMA,pan_loftr,True,,0.16388519256698336,0.30960803130397496,0.9947339616904834,0.7720424385529476,False
+OMA_93/OMA_93_5,accepted_control,OMA,pan_any,True,,0.16388519256698336,0.30960803130397496,0.9947339616904834,0.7720424385529476,False
+OMA_161/OMA_161_15,accepted_control,OMA,direct_loftr,True,,0.15439064221013116,0.2796746614373693,0.993855087016552,0.8697215119563381,False
+OMA_161/OMA_161_15,accepted_control,OMA,pan_classical,True,,0.1159177526276153,0.28875229085729825,0.993855087016552,0.8703158116731808,False
+OMA_161/OMA_161_15,accepted_control,OMA,pan_loftr,True,,0.14761208635689316,0.27444415351692614,0.993855087016552,0.8697790131757763,False
+OMA_161/OMA_161_15,accepted_control,OMA,pan_any,True,,0.1159177526276153,0.28875229085729825,0.993855087016552,0.8703158116731808,False
+UCSD_291/UCSD_291_3,failed_matching,UCSD,direct_loftr,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+UCSD_291/UCSD_291_3,failed_matching,UCSD,pan_classical,False,PAN/RGB grid not verified or insufficient matches,,,,,False
+UCSD_291/UCSD_291_3,failed_matching,UCSD,pan_loftr,False,PAN/RGB grid not verified,,,,,False
+UCSD_291/UCSD_291_3,failed_matching,UCSD,pan_any,False,PAN/RGB grid not verified or insufficient matches,,,,,False
+UCSD_463/UCSD_463_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_463/UCSD_463_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+UCSD_463/UCSD_463_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Excessive projective distortion,,,,,False
+UCSD_463/UCSD_463_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+UCSD_639/UCSD_639_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_639/UCSD_639_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 1 in-bounds selected correspondences,,,,,False
+UCSD_639/UCSD_639_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_639/UCSD_639_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 1 in-bounds selected correspondences,,,,,False
+UCSD_541/UCSD_541_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_541/UCSD_541_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+UCSD_541/UCSD_541_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_541/UCSD_541_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+UCSD_495/UCSD_495_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_495/UCSD_495_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 5 in-bounds selected correspondences,,,,,False
+UCSD_495/UCSD_495_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_495/UCSD_495_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 5 in-bounds selected correspondences,,,,,False
+UCSD_194/UCSD_194_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_194/UCSD_194_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+UCSD_194/UCSD_194_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_194/UCSD_194_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+UCSD_671/UCSD_671_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Only 16 in-bounds selected correspondences,,,,,False
+UCSD_671/UCSD_671_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 6 in-bounds selected correspondences,,,,,False
+UCSD_671/UCSD_671_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Holdout points do not cover enough two-dimensional image area,,,,,False
+UCSD_671/UCSD_671_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 6 in-bounds selected correspondences,,,,,False
+UCSD_494/UCSD_494_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_494/UCSD_494_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 5 in-bounds selected correspondences,,,,,False
+UCSD_494/UCSD_494_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Only 17 in-bounds selected correspondences,,,,,False
+UCSD_494/UCSD_494_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 5 in-bounds selected correspondences,,,,,False
+UCSD_347/UCSD_347_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_347/UCSD_347_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+UCSD_347/UCSD_347_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_347/UCSD_347_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+UCSD_496/UCSD_496_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Only 14 in-bounds selected correspondences,,,,,False
+UCSD_496/UCSD_496_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+UCSD_496/UCSD_496_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Only 11 in-bounds selected correspondences,,,,,False
+UCSD_496/UCSD_496_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+UCSD_643/UCSD_643_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Only 15 in-bounds selected correspondences,,,,,False
+UCSD_643/UCSD_643_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+UCSD_643/UCSD_643_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_643/UCSD_643_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 3 in-bounds selected correspondences,,,,,False
+UCSD_256/UCSD_256_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Only 8 in-bounds selected correspondences,,,,,False
+UCSD_256/UCSD_256_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+UCSD_256/UCSD_256_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Implausible footprint area ratio: 0.437,,,,,False
+UCSD_256/UCSD_256_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+UCSD_173/UCSD_173_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Only 12 in-bounds selected correspondences,,,,,False
+UCSD_173/UCSD_173_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 7 in-bounds selected correspondences,,,,,False
+UCSD_173/UCSD_173_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Excessive projective distortion,,,,,False
+UCSD_173/UCSD_173_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 7 in-bounds selected correspondences,,,,,False
+UCSD_387/UCSD_387_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Too few spatially separated training or holdout points,,,,,False
+UCSD_387/UCSD_387_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 5 in-bounds selected correspondences,,,,,False
+UCSD_387/UCSD_387_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Spatial training inlier support is insufficient,,,,,False
+UCSD_387/UCSD_387_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 5 in-bounds selected correspondences,,,,,False
+UCSD_670/UCSD_670_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Only 2 in-bounds selected correspondences,,,,,False
+UCSD_670/UCSD_670_30,failed_matching,UCSD,pan_classical,False,PAN/RGB grid not verified or insufficient matches,,,,,False
+UCSD_670/UCSD_670_30,failed_matching,UCSD,pan_loftr,False,PAN/RGB grid not verified,,,,,False
+UCSD_670/UCSD_670_30,failed_matching,UCSD,pan_any,False,PAN/RGB grid not verified or insufficient matches,,,,,False
+UCSD_382/UCSD_382_30,failed_matching,UCSD,direct_loftr,False,AlignmentError: Only 6 in-bounds selected correspondences,,,,,False
+UCSD_382/UCSD_382_30,failed_matching,UCSD,pan_classical,False,AlignmentError: Only 4 in-bounds selected correspondences,,,,,False
+UCSD_382/UCSD_382_30,failed_matching,UCSD,pan_loftr,False,AlignmentError: Only 15 in-bounds selected correspondences,,,,,False
+UCSD_382/UCSD_382_30,failed_matching,UCSD,pan_any,False,AlignmentError: Only 4 in-bounds selected correspondences,,,,,False
+UCSD_317/UCSD_317_6,accepted_control,UCSD,direct_loftr,True,,0.13461216085612726,0.27479043265574876,0.996358847346524,0.7715399729063233,False
+UCSD_317/UCSD_317_6,accepted_control,UCSD,pan_classical,True,,0.09308694036641776,1.4514328266404855,0.9952745947218582,0.7665079211813433,False
+UCSD_317/UCSD_317_6,accepted_control,UCSD,pan_loftr,True,,0.1335583404147938,0.2844533398134247,0.9963472303541169,0.7711797516784848,False
+UCSD_317/UCSD_317_6,accepted_control,UCSD,pan_any,True,,0.09308694036641776,1.4514328266404855,0.9952745947218582,0.7665079211813433,False
+UCSD_19/UCSD_19_28,accepted_control,UCSD,direct_loftr,True,,0.18600105928982757,0.5169748100662817,0.9918763592477194,0.7153548293127724,False
+UCSD_19/UCSD_19_28,accepted_control,UCSD,pan_classical,True,,0.18652862234977358,0.41426995637029557,0.9918763592477194,0.7161381182411646,False
+UCSD_19/UCSD_19_28,accepted_control,UCSD,pan_loftr,True,,0.17865422994344524,0.36144665798355285,0.9918763592477194,0.7152512739648061,False
+UCSD_19/UCSD_19_28,accepted_control,UCSD,pan_any,True,,0.17865422994344524,0.36144665798355285,0.9918763592477194,0.7152512739648061,False
+UCSD_230/UCSD_230_1,accepted_control,UCSD,direct_loftr,True,,0.15509631960754394,0.2968827965665209,0.9956962145710482,0.8775072130485334,False
+UCSD_230/UCSD_230_1,accepted_control,UCSD,pan_classical,True,,0.18383629703388515,0.46080178410281764,0.9950403430346839,0.8778973475706907,False
+UCSD_230/UCSD_230_1,accepted_control,UCSD,pan_loftr,True,,0.16399250509868207,0.32640244968306353,0.9956962145710482,0.8769391221977109,False
+UCSD_230/UCSD_230_1,accepted_control,UCSD,pan_any,True,,0.16399250509868207,0.32640244968306353,0.9956962145710482,0.8769391221977109,False

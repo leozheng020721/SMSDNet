@@ -1,0 +1,1117 @@
+{
+  "scope": "Original group 7; exact inverse-homography footprints of M01/M02, both dates",
+  "output": "E:\\MyPythonProject\\segformer\\.showcase_work\\raw_color_check",
+  "display": "Raw MS and fused shared: RGB bands 3,2,1; same scalar DN range [0,p98(raw visible)], gamma=1. PAN grayscale has its own p98. Final fused display has its own scalar p98.",
+  "blue_definition": "Native or cubic-upsampled B > 1.5*G and B > 1.5*R and B > 10 DN; valid footprint only. This is a descriptive selection, not calibrated reflectance or a land-cover label.",
+  "limitations": "No physical calibration coefficients are provided. DN channel ratios and blue appearance establish that the effect predates fusion; they do not establish sensor fault or the physical cause.",
+  "cases": [
+    {
+      "id": "M01_scene1",
+      "scene": "BJ3A3_PMS_20241231035015_L1_303420_SC_039",
+      "showcase_rect": [
+        2816,
+        3840,
+        1024,
+        1024
+      ],
+      "source_window_xywh": [
+        12708,
+        3892,
+        1228,
+        1244
+      ],
+      "source_footprint_xy": [
+        [
+          12711.914537496285,
+          4132.7955738920455
+        ],
+        [
+          13707.893520320056,
+          3894.610265562063
+        ],
+        [
+          13933.186757082072,
+          4893.776078958534
+        ],
+        [
+          12937.147550899468,
+          5132.020839791087
+        ]
+      ],
+      "native_ms_window_xywh": [
+        3177,
+        973,
+        307,
+        311
+      ],
+      "original_ms": {
+        "path": "E:\\BaiduNetdiskDownload\\21ATRD25148-朱艳丽-0805\\阴影相关数据\\7\\BJ3A3_PMS_20241231035015_L1_303420_SC_039\\MS\\BJ3A3_MS_20241231035015_L1_303420_SC_039.tif",
+        "size": [
+          4524,
+          5095
+        ],
+        "bands": 4,
+        "dtype": [
+          "uint16",
+          "uint16",
+          "uint16",
+          "uint16"
+        ],
+        "tags": {
+          "TIFFTAG_IMAGEDESCRIPTION": "BLU(0)/GRN(1)/RED(2)/NIR(3)",
+          "TIFFTAG_SOFTWARE": "21AT DPS (c)",
+          "TIFFTAG_DATETIME": "2026-08-04T09:05:23.000000",
+          "TIFFTAG_COPYRIGHT": "Copyright(c) 2026- Twenty First Century Aerospace Technology Co., Ltd.- All rights reserved.\nNo.26 Jiancaicheng Donglu, Xisanqi, Haidian District, Beijing, 100096, P. R. China 100096",
+          "TIFFTAG_MINSAMPLEVALUE": "0",
+          "TIFFTAG_MAXSAMPLEVALUE": "4095"
+        },
+        "scales": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_bytes": 49120043
+      },
+      "original_pan": {
+        "path": "E:\\BaiduNetdiskDownload\\21ATRD25148-朱艳丽-0805\\阴影相关数据\\7\\BJ3A3_PMS_20241231035015_L1_303420_SC_039\\PAN\\BJ3A3_PAN_20241231035015_L1_303420_SC_039.tif",
+        "size": [
+          18096,
+          20380
+        ],
+        "bands": 1,
+        "dtype": [
+          "uint16"
+        ],
+        "tags": {
+          "TIFFTAG_IMAGEDESCRIPTION": "PAN(0)",
+          "TIFFTAG_SOFTWARE": "21AT DPS (c)",
+          "TIFFTAG_DATETIME": "2026-08-04T09:05:36.000000",
+          "TIFFTAG_COPYRIGHT": "Copyright(c) 2026- Twenty First Century Aerospace Technology Co., Ltd.- All rights reserved.\nNo.26 Jiancaicheng Donglu, Xisanqi, Haidian District, Beijing, 100096, P. R. China 100096",
+          "TIFFTAG_MINSAMPLEVALUE": "0",
+          "TIFFTAG_MAXSAMPLEVALUE": "4095"
+        },
+        "scales": [
+          1.0
+        ],
+        "offsets": [
+          0.0
+        ],
+        "size_bytes": 170324319
+      },
+      "fused": {
+        "path": "E:\\Dataset\\21century\\7\\BJ3A3_PMS_20241231035015_L1_303420_SC_039\\BJ3A3_PMS_20241231035015_L1_303420_SC_039_pansharpened.tif",
+        "size": [
+          18096,
+          20380
+        ],
+        "bands": 4,
+        "dtype": [
+          "uint16",
+          "uint16",
+          "uint16",
+          "uint16"
+        ],
+        "tags": {
+          "TIFFTAG_IMAGEDESCRIPTION": "BLUE(0)/GREEN(1)/RED(2)/NIR(3)",
+          "PANSHARPEN_METHOD": "WEIGHTED_BROVEY",
+          "PANSHARPEN_WEIGHTS": "0.25,0.25,0.25,0.25",
+          "SOURCE_MS": "BJ3A3_MS_20241231035015_L1_303420_SC_039.tif",
+          "SOURCE_PAN": "BJ3A3_PAN_20241231035015_L1_303420_SC_039.tif"
+        },
+        "scales": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_bytes": 572069621
+      },
+      "native_blue_fraction": 0.36689698492462314,
+      "native_valid_count": 63680,
+      "pan_grid_valid_count": 1033518,
+      "pan_grid_footprint_valid_fraction": 0.9837875398600733,
+      "native_blue": {
+        "count": 23364,
+        "BGRN_medians": [
+          102.0,
+          16.0,
+          12.0,
+          142.0
+        ],
+        "B_div_R": {
+          "p01": 1.5714285714285714,
+          "p10": 3.1538461538461537,
+          "median": 6.378844361602982,
+          "p90": 19.8,
+          "p99": 88.0
+        },
+        "B_div_G": {
+          "p01": 1.6,
+          "p10": 2.1666666666666665,
+          "median": 4.1,
+          "p90": 15.25,
+          "p99": 68.36999999999898
+        },
+        "red_zero_fraction": 0.0
+      },
+      "native_nonblue": {
+        "count": 40316,
+        "BGRN_medians": [
+          57.0,
+          110.0,
+          159.0,
+          984.0
+        ],
+        "B_div_R": {
+          "p01": 0.05263157894736842,
+          "p10": 0.253694939934474,
+          "median": 0.5286072366082841,
+          "p90": 1.4736842105263157,
+          "p99": 3.6
+        },
+        "B_div_G": {
+          "p01": 0.058823529411764705,
+          "p10": 0.288135593220339,
+          "median": 0.5901349707466836,
+          "p90": 1.230155494020631,
+          "p99": 3.2369963369963264
+        },
+        "red_zero_fraction": 0.0
+      },
+      "upsampled_blue": {
+        "count": 390501,
+        "BGRN_medians": [
+          98.0,
+          16.0,
+          11.0,
+          142.0
+        ],
+        "B_div_R": {
+          "p01": 1.6,
+          "p10": 3.25,
+          "median": 6.5,
+          "p90": 19.0,
+          "p99": 75.0
+        },
+        "B_div_G": {
+          "p01": 1.5833333333333333,
+          "p10": 2.1491228070175437,
+          "median": 4.142857142857143,
+          "p90": 13.6,
+          "p99": 50.0
+        },
+        "red_zero_fraction": 0.0
+      },
+      "fused_at_same_blue_pixels": {
+        "count": 390501,
+        "BGRN_medians": [
+          75.0,
+          12.0,
+          8.0,
+          113.0
+        ],
+        "B_div_R": {
+          "p01": 0.0,
+          "p10": 3.0,
+          "median": 6.2,
+          "p90": 18.0,
+          "p99": 59.0
+        },
+        "B_div_G": {
+          "p01": 0.0,
+          "p10": 2.0,
+          "median": 4.0,
+          "p90": 13.0,
+          "p99": 44.333333333333336
+        },
+        "red_zero_fraction": 0.04475532713104448
+      },
+      "gain_blue": {
+        "p01": 0.0,
+        "p10": 0.17475728690624237,
+        "median": 0.7735849022865295,
+        "p90": 1.5094339847564697,
+        "p99": 2.440000057220459
+      },
+      "gain_all": {
+        "p01": 0.0,
+        "p10": 0.1473684161901474,
+        "median": 0.44878047704696655,
+        "p90": 1.1875,
+        "p99": 2.151111125946045
+      },
+      "gain_dark_quartile": {
+        "p01": 0.0,
+        "p10": 0.09580838680267334,
+        "median": 0.3571428656578064,
+        "p90": 1.0838710069656372,
+        "p99": 2.3516483306884766
+      },
+      "pan_at_blue": {
+        "p01": 0.0,
+        "p10": 9.0,
+        "median": 56.0,
+        "p90": 149.0,
+        "p99": 275.0
+      },
+      "pan_at_dark_quartile": {
+        "p01": 0.0,
+        "p10": 4.0,
+        "median": 14.0,
+        "p90": 46.0,
+        "p99": 99.0
+      },
+      "expected_brovey_exact_fraction": 1.0,
+      "saturated_any_band_fraction": 7.837309074442825e-05,
+      "dark_fused_visible_all_at_most5_fraction": 0.2933545253727208,
+      "display_high_common_ms_and_fused": 454.0,
+      "display_high_fused_independent": 302.0,
+      "display_high_pan": 463.0,
+      "comparison": "E:\\MyPythonProject\\segformer\\.showcase_work\\raw_color_check\\M01_scene1_comparison.jpg"
+    },
+    {
+      "id": "M01_scene2",
+      "scene": "BJ3A3_PMS_20251210034137_L1_308349_SC_028",
+      "showcase_rect": [
+        2816,
+        3840,
+        1024,
+        1024
+      ],
+      "source_window_xywh": [
+        13180,
+        2912,
+        1116,
+        1152
+      ],
+      "source_footprint_xy": [
+        [
+          13180.389187577184,
+          3115.153746439748
+        ],
+        [
+          14104.60426969978,
+          2912.7106917113365
+        ],
+        [
+          14294.9240662073,
+          3860.0156613725535
+        ],
+        [
+          13370.812645266502,
+          4063.3606240238673
+        ]
+      ],
+      "native_ms_window_xywh": [
+        3295,
+        728,
+        279,
+        288
+      ],
+      "original_ms": {
+        "path": "E:\\BaiduNetdiskDownload\\21ATRD25148-朱艳丽-0805\\阴影相关数据\\7\\BJ3A3_PMS_20251210034137_L1_308349_SC_028\\MS\\BJ3A3_MS_20251210034137_L1_308349_SC_028.tif",
+        "size": [
+          4141,
+          4615
+        ],
+        "bands": 4,
+        "dtype": [
+          "uint16",
+          "uint16",
+          "uint16",
+          "uint16"
+        ],
+        "tags": {
+          "TIFFTAG_IMAGEDESCRIPTION": "BLU(0)/GRN(1)/RED(2)/NIR(3)",
+          "TIFFTAG_SOFTWARE": "21AT DPS (c)",
+          "TIFFTAG_DATETIME": "2026-08-04T09:05:42.000000",
+          "TIFFTAG_COPYRIGHT": "Copyright(c) 2026- Twenty First Century Aerospace Technology Co., Ltd.- All rights reserved.\nNo.26 Jiancaicheng Donglu, Xisanqi, Haidian District, Beijing, 100096, P. R. China 100096",
+          "TIFFTAG_MINSAMPLEVALUE": "0",
+          "TIFFTAG_MAXSAMPLEVALUE": "4095"
+        },
+        "scales": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_bytes": 42787101
+      },
+      "original_pan": {
+        "path": "E:\\BaiduNetdiskDownload\\21ATRD25148-朱艳丽-0805\\阴影相关数据\\7\\BJ3A3_PMS_20251210034137_L1_308349_SC_028\\PAN\\BJ3A3_PAN_20251210034137_L1_308349_SC_028.tif",
+        "size": [
+          16564,
+          18460
+        ],
+        "bands": 1,
+        "dtype": [
+          "uint16"
+        ],
+        "tags": {
+          "TIFFTAG_IMAGEDESCRIPTION": "PAN(0)",
+          "TIFFTAG_SOFTWARE": "21AT DPS (c)",
+          "TIFFTAG_DATETIME": "2026-08-04T09:05:53.000000",
+          "TIFFTAG_COPYRIGHT": "Copyright(c) 2026- Twenty First Century Aerospace Technology Co., Ltd.- All rights reserved.\nNo.26 Jiancaicheng Donglu, Xisanqi, Haidian District, Beijing, 100096, P. R. China 100096",
+          "TIFFTAG_MINSAMPLEVALUE": "0",
+          "TIFFTAG_MAXSAMPLEVALUE": "4095"
+        },
+        "scales": [
+          1.0
+        ],
+        "offsets": [
+          0.0
+        ],
+        "size_bytes": 135717220
+      },
+      "fused": {
+        "path": "E:\\Dataset\\21century\\7\\BJ3A3_PMS_20251210034137_L1_308349_SC_028\\BJ3A3_PMS_20251210034137_L1_308349_SC_028_pansharpened.tif",
+        "size": [
+          16564,
+          18460
+        ],
+        "bands": 4,
+        "dtype": [
+          "uint16",
+          "uint16",
+          "uint16",
+          "uint16"
+        ],
+        "tags": {
+          "TIFFTAG_IMAGEDESCRIPTION": "BLUE(0)/GREEN(1)/RED(2)/NIR(3)",
+          "PANSHARPEN_METHOD": "WEIGHTED_BROVEY",
+          "PANSHARPEN_WEIGHTS": "0.25,0.25,0.25,0.25",
+          "SOURCE_MS": "BJ3A3_MS_20251210034137_L1_308349_SC_028.tif",
+          "SOURCE_PAN": "BJ3A3_PAN_20251210034137_L1_308349_SC_028.tif"
+        },
+        "scales": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_bytes": 394665535
+      },
+      "native_blue_fraction": 0.02271442701709764,
+      "native_valid_count": 28308,
+      "pan_grid_valid_count": 454718,
+      "pan_grid_footprint_valid_fraction": 0.49619114442442686,
+      "native_blue": {
+        "count": 643,
+        "BGRN_medians": [
+          74.0,
+          12.0,
+          34.0,
+          274.0
+        ],
+        "B_div_R": {
+          "p01": 1.511970760233918,
+          "p10": 1.608990420044215,
+          "median": 2.1621621621621623,
+          "p90": 3.687179487179489,
+          "p99": 6.842500000000015
+        },
+        "B_div_G": {
+          "p01": 1.6814438502673796,
+          "p10": 2.691005291005291,
+          "median": 5.6,
+          "p90": 17.700000000000017,
+          "p99": 60.58000000000004
+        },
+        "red_zero_fraction": 0.0
+      },
+      "native_nonblue": {
+        "count": 27665,
+        "BGRN_medians": [
+          332.0,
+          401.0,
+          514.0,
+          1675.0
+        ],
+        "B_div_R": {
+          "p01": 0.5256564441454632,
+          "p10": 0.5856491282421988,
+          "median": 0.6892655367231638,
+          "p90": 0.8601582180943966,
+          "p99": 1.255813953488372
+        },
+        "B_div_G": {
+          "p01": 0.701998899409856,
+          "p10": 0.775,
+          "median": 0.8748538011695907,
+          "p90": 1.0689655172413792,
+          "p99": 2.3666666666666667
+        },
+        "red_zero_fraction": 0.0
+      },
+      "upsampled_blue": {
+        "count": 9939,
+        "BGRN_medians": [
+          72.0,
+          12.0,
+          33.0,
+          276.0
+        ],
+        "B_div_R": {
+          "p01": 1.515625,
+          "p10": 1.6065573770491803,
+          "median": 2.1818181818181817,
+          "p90": 3.7222222222222223,
+          "p99": 7.0
+        },
+        "B_div_G": {
+          "p01": 1.7738161898965308,
+          "p10": 2.764705882352941,
+          "median": 5.785714285714286,
+          "p90": 16.5,
+          "p99": 58.0
+        },
+        "red_zero_fraction": 0.0
+      },
+      "fused_at_same_blue_pixels": {
+        "count": 9939,
+        "BGRN_medians": [
+          8.0,
+          1.0,
+          4.0,
+          36.0
+        ],
+        "B_div_R": {
+          "p01": 0.0,
+          "p10": 1.3333333333333333,
+          "median": 2.0,
+          "p90": 3.25,
+          "p99": 6.0
+        },
+        "B_div_G": {
+          "p01": 0.0,
+          "p10": 1.5,
+          "median": 4.0,
+          "p90": 9.0,
+          "p99": 18.0
+        },
+        "red_zero_fraction": 0.10393399738404266
+      },
+      "gain_blue": {
+        "p01": 0.0,
+        "p10": 0.023724825680255895,
+        "median": 0.12738853693008423,
+        "p90": 0.3492879629135135,
+        "p99": 0.5849844324588783
+      },
+      "gain_all": {
+        "p01": 0.036363635212183,
+        "p10": 0.29411765933036804,
+        "median": 0.5133417844772339,
+        "p90": 0.7304110407829285,
+        "p99": 0.9346330094337467
+      },
+      "gain_dark_quartile": {
+        "p01": 0.0,
+        "p10": 0.12153073251247407,
+        "median": 0.38542187213897705,
+        "p90": 0.5902060389518737,
+        "p99": 0.8168248605728147
+      },
+      "pan_at_blue": {
+        "p01": 0.0,
+        "p10": 2.0,
+        "median": 12.0,
+        "p90": 37.0,
+        "p99": 68.0
+      },
+      "pan_at_dark_quartile": {
+        "p01": 0.0,
+        "p10": 18.0,
+        "median": 134.0,
+        "p90": 256.0,
+        "p99": 347.0
+      },
+      "expected_brovey_exact_fraction": 1.0,
+      "saturated_any_band_fraction": 0.0,
+      "dark_fused_visible_all_at_most5_fraction": 0.06659395368065513,
+      "display_high_common_ms_and_fused": 1338.0,
+      "display_high_fused_independent": 1042.0,
+      "display_high_pan": 1245.0,
+      "comparison": "E:\\MyPythonProject\\segformer\\.showcase_work\\raw_color_check\\M01_scene2_comparison.jpg"
+    },
+    {
+      "id": "M02_scene1",
+      "scene": "BJ3A3_PMS_20241231035015_L1_303420_SC_039",
+      "showcase_rect": [
+        4352,
+        5324,
+        1024,
+        1024
+      ],
+      "source_window_xywh": [
+        6400,
+        6400,
+        1232,
+        1248
+      ],
+      "source_footprint_xy": [
+        [
+          6403.700742839798,
+          6649.414170953302
+        ],
+        [
+          7397.818967006741,
+          6401.260823263739
+        ],
+        [
+          7630.197836512985,
+          7399.561001641165
+        ],
+        [
+          6635.942993506248,
+          7647.7049033142985
+        ]
+      ],
+      "native_ms_window_xywh": [
+        1600,
+        1600,
+        308,
+        312
+      ],
+      "original_ms": {
+        "path": "E:\\BaiduNetdiskDownload\\21ATRD25148-朱艳丽-0805\\阴影相关数据\\7\\BJ3A3_PMS_20241231035015_L1_303420_SC_039\\MS\\BJ3A3_MS_20241231035015_L1_303420_SC_039.tif",
+        "size": [
+          4524,
+          5095
+        ],
+        "bands": 4,
+        "dtype": [
+          "uint16",
+          "uint16",
+          "uint16",
+          "uint16"
+        ],
+        "tags": {
+          "TIFFTAG_IMAGEDESCRIPTION": "BLU(0)/GRN(1)/RED(2)/NIR(3)",
+          "TIFFTAG_SOFTWARE": "21AT DPS (c)",
+          "TIFFTAG_DATETIME": "2026-08-04T09:05:23.000000",
+          "TIFFTAG_COPYRIGHT": "Copyright(c) 2026- Twenty First Century Aerospace Technology Co., Ltd.- All rights reserved.\nNo.26 Jiancaicheng Donglu, Xisanqi, Haidian District, Beijing, 100096, P. R. China 100096",
+          "TIFFTAG_MINSAMPLEVALUE": "0",
+          "TIFFTAG_MAXSAMPLEVALUE": "4095"
+        },
+        "scales": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_bytes": 49120043
+      },
+      "original_pan": {
+        "path": "E:\\BaiduNetdiskDownload\\21ATRD25148-朱艳丽-0805\\阴影相关数据\\7\\BJ3A3_PMS_20241231035015_L1_303420_SC_039\\PAN\\BJ3A3_PAN_20241231035015_L1_303420_SC_039.tif",
+        "size": [
+          18096,
+          20380
+        ],
+        "bands": 1,
+        "dtype": [
+          "uint16"
+        ],
+        "tags": {
+          "TIFFTAG_IMAGEDESCRIPTION": "PAN(0)",
+          "TIFFTAG_SOFTWARE": "21AT DPS (c)",
+          "TIFFTAG_DATETIME": "2026-08-04T09:05:36.000000",
+          "TIFFTAG_COPYRIGHT": "Copyright(c) 2026- Twenty First Century Aerospace Technology Co., Ltd.- All rights reserved.\nNo.26 Jiancaicheng Donglu, Xisanqi, Haidian District, Beijing, 100096, P. R. China 100096",
+          "TIFFTAG_MINSAMPLEVALUE": "0",
+          "TIFFTAG_MAXSAMPLEVALUE": "4095"
+        },
+        "scales": [
+          1.0
+        ],
+        "offsets": [
+          0.0
+        ],
+        "size_bytes": 170324319
+      },
+      "fused": {
+        "path": "E:\\Dataset\\21century\\7\\BJ3A3_PMS_20241231035015_L1_303420_SC_039\\BJ3A3_PMS_20241231035015_L1_303420_SC_039_pansharpened.tif",
+        "size": [
+          18096,
+          20380
+        ],
+        "bands": 4,
+        "dtype": [
+          "uint16",
+          "uint16",
+          "uint16",
+          "uint16"
+        ],
+        "tags": {
+          "TIFFTAG_IMAGEDESCRIPTION": "BLUE(0)/GREEN(1)/RED(2)/NIR(3)",
+          "PANSHARPEN_METHOD": "WEIGHTED_BROVEY",
+          "PANSHARPEN_WEIGHTS": "0.25,0.25,0.25,0.25",
+          "SOURCE_MS": "BJ3A3_MS_20241231035015_L1_303420_SC_039.tif",
+          "SOURCE_PAN": "BJ3A3_PAN_20241231035015_L1_303420_SC_039.tif"
+        },
+        "scales": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_bytes": 572069621
+      },
+      "native_blue_fraction": 0.5623488288625689,
+      "native_valid_count": 64083,
+      "pan_grid_valid_count": 1036281,
+      "pan_grid_footprint_valid_fraction": 0.9846676745054479,
+      "native_blue": {
+        "count": 36037,
+        "BGRN_medians": [
+          141.0,
+          35.0,
+          23.0,
+          148.0
+        ],
+        "B_div_R": {
+          "p01": 1.589570850202429,
+          "p10": 2.3464615384615386,
+          "median": 5.694444444444445,
+          "p90": 18.5,
+          "p99": 90.63999999999942
+        },
+        "B_div_G": {
+          "p01": 1.5555555555555556,
+          "p10": 2.024073215940686,
+          "median": 3.5106382978723403,
+          "p90": 11.625,
+          "p99": 59.5
+        },
+        "red_zero_fraction": 0.0
+      },
+      "native_nonblue": {
+        "count": 28046,
+        "BGRN_medians": [
+          183.0,
+          231.0,
+          243.0,
+          985.0
+        ],
+        "B_div_R": {
+          "p01": 0.14267416328431698,
+          "p10": 0.45347853460827137,
+          "median": 0.7728672707638856,
+          "p90": 1.4761904761904763,
+          "p99": 4.074450549450545
+        },
+        "B_div_G": {
+          "p01": 0.13333333333333333,
+          "p10": 0.4696485623003195,
+          "median": 0.7815043340170714,
+          "p90": 1.4166666666666667,
+          "p99": 3.577976190476182
+        },
+        "red_zero_fraction": 0.0
+      },
+      "upsampled_blue": {
+        "count": 595137,
+        "BGRN_medians": [
+          138.0,
+          34.0,
+          22.0,
+          147.0
+        ],
+        "B_div_R": {
+          "p01": 1.591549295774648,
+          "p10": 2.3529411764705883,
+          "median": 5.769230769230769,
+          "p90": 18.4,
+          "p99": 74.0
+        },
+        "B_div_G": {
+          "p01": 1.5576036866359446,
+          "p10": 2.0261210571185,
+          "median": 3.547169811320755,
+          "p90": 10.777777777777779,
+          "p99": 43.5
+        },
+        "red_zero_fraction": 0.0
+      },
+      "fused_at_same_blue_pixels": {
+        "count": 595137,
+        "BGRN_medians": [
+          149.0,
+          35.0,
+          22.0,
+          163.0
+        ],
+        "B_div_R": {
+          "p01": 1.5384615384615385,
+          "p10": 2.282608695652174,
+          "median": 5.714285714285714,
+          "p90": 18.0,
+          "p99": 66.9280000000028
+        },
+        "B_div_G": {
+          "p01": 1.5195783853447482,
+          "p10": 2.0,
+          "median": 3.522727272727273,
+          "p90": 10.6,
+          "p99": 41.0
+        },
+        "red_zero_fraction": 0.01191322334185238
+      },
+      "gain_blue": {
+        "p01": 0.0617760606110096,
+        "p10": 0.4361158311367035,
+        "median": 1.051224946975708,
+        "p90": 1.7870724916458138,
+        "p99": 2.6824323654174824
+      },
+      "gain_all": {
+        "p01": 0.03652597442269327,
+        "p10": 0.2888540029525757,
+        "median": 0.7936508059501648,
+        "p90": 1.6266666650772095,
+        "p99": 2.581818103790283
+      },
+      "gain_dark_quartile": {
+        "p01": 0.0,
+        "p10": 0.16243654489517212,
+        "median": 0.9116278886795044,
+        "p90": 1.9487179517745972,
+        "p99": 2.9738774347305283
+      },
+      "pan_at_blue": {
+        "p01": 4.0,
+        "p10": 30.0,
+        "median": 97.0,
+        "p90": 183.0,
+        "p99": 307.0
+      },
+      "pan_at_dark_quartile": {
+        "p01": 0.0,
+        "p10": 8.0,
+        "median": 46.0,
+        "p90": 105.0,
+        "p99": 161.0
+      },
+      "expected_brovey_exact_fraction": 1.0,
+      "saturated_any_band_fraction": 0.0005558337941156887,
+      "dark_fused_visible_all_at_most5_fraction": 0.12220557732196359,
+      "display_high_common_ms_and_fused": 782.0,
+      "display_high_fused_independent": 573.0,
+      "display_high_pan": 827.0,
+      "comparison": "E:\\MyPythonProject\\segformer\\.showcase_work\\raw_color_check\\M02_scene1_comparison.jpg"
+    },
+    {
+      "id": "M02_scene2",
+      "scene": "BJ3A3_PMS_20251210034137_L1_308349_SC_028",
+      "showcase_rect": [
+        4352,
+        5324,
+        1024,
+        1024
+      ],
+      "source_window_xywh": [
+        7308,
+        5140,
+        1120,
+        1168
+      ],
+      "source_footprint_xy": [
+        [
+          7308.8195694191045,
+          5355.791996497733
+        ],
+        [
+          8228.588920012724,
+          5143.067463564189
+        ],
+        [
+          8425.510935832785,
+          6094.053387157942
+        ],
+        [
+          7505.292704516709,
+          6306.759345446152
+        ]
+      ],
+      "native_ms_window_xywh": [
+        1827,
+        1285,
+        280,
+        292
+      ],
+      "original_ms": {
+        "path": "E:\\BaiduNetdiskDownload\\21ATRD25148-朱艳丽-0805\\阴影相关数据\\7\\BJ3A3_PMS_20251210034137_L1_308349_SC_028\\MS\\BJ3A3_MS_20251210034137_L1_308349_SC_028.tif",
+        "size": [
+          4141,
+          4615
+        ],
+        "bands": 4,
+        "dtype": [
+          "uint16",
+          "uint16",
+          "uint16",
+          "uint16"
+        ],
+        "tags": {
+          "TIFFTAG_IMAGEDESCRIPTION": "BLU(0)/GRN(1)/RED(2)/NIR(3)",
+          "TIFFTAG_SOFTWARE": "21AT DPS (c)",
+          "TIFFTAG_DATETIME": "2026-08-04T09:05:42.000000",
+          "TIFFTAG_COPYRIGHT": "Copyright(c) 2026- Twenty First Century Aerospace Technology Co., Ltd.- All rights reserved.\nNo.26 Jiancaicheng Donglu, Xisanqi, Haidian District, Beijing, 100096, P. R. China 100096",
+          "TIFFTAG_MINSAMPLEVALUE": "0",
+          "TIFFTAG_MAXSAMPLEVALUE": "4095"
+        },
+        "scales": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_bytes": 42787101
+      },
+      "original_pan": {
+        "path": "E:\\BaiduNetdiskDownload\\21ATRD25148-朱艳丽-0805\\阴影相关数据\\7\\BJ3A3_PMS_20251210034137_L1_308349_SC_028\\PAN\\BJ3A3_PAN_20251210034137_L1_308349_SC_028.tif",
+        "size": [
+          16564,
+          18460
+        ],
+        "bands": 1,
+        "dtype": [
+          "uint16"
+        ],
+        "tags": {
+          "TIFFTAG_IMAGEDESCRIPTION": "PAN(0)",
+          "TIFFTAG_SOFTWARE": "21AT DPS (c)",
+          "TIFFTAG_DATETIME": "2026-08-04T09:05:53.000000",
+          "TIFFTAG_COPYRIGHT": "Copyright(c) 2026- Twenty First Century Aerospace Technology Co., Ltd.- All rights reserved.\nNo.26 Jiancaicheng Donglu, Xisanqi, Haidian District, Beijing, 100096, P. R. China 100096",
+          "TIFFTAG_MINSAMPLEVALUE": "0",
+          "TIFFTAG_MAXSAMPLEVALUE": "4095"
+        },
+        "scales": [
+          1.0
+        ],
+        "offsets": [
+          0.0
+        ],
+        "size_bytes": 135717220
+      },
+      "fused": {
+        "path": "E:\\Dataset\\21century\\7\\BJ3A3_PMS_20251210034137_L1_308349_SC_028\\BJ3A3_PMS_20251210034137_L1_308349_SC_028_pansharpened.tif",
+        "size": [
+          16564,
+          18460
+        ],
+        "bands": 4,
+        "dtype": [
+          "uint16",
+          "uint16",
+          "uint16",
+          "uint16"
+        ],
+        "tags": {
+          "TIFFTAG_IMAGEDESCRIPTION": "BLUE(0)/GREEN(1)/RED(2)/NIR(3)",
+          "PANSHARPEN_METHOD": "WEIGHTED_BROVEY",
+          "PANSHARPEN_WEIGHTS": "0.25,0.25,0.25,0.25",
+          "SOURCE_MS": "BJ3A3_MS_20251210034137_L1_308349_SC_028.tif",
+          "SOURCE_PAN": "BJ3A3_PAN_20251210034137_L1_308349_SC_028.tif"
+        },
+        "scales": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_bytes": 394665535
+      },
+      "native_blue_fraction": 0.001919008020469419,
+      "native_valid_count": 40646,
+      "pan_grid_valid_count": 654192,
+      "pan_grid_footprint_valid_fraction": 0.711757525116361,
+      "native_blue": {
+        "count": 78,
+        "BGRN_medians": [
+          82.0,
+          26.0,
+          47.5,
+          624.5
+        ],
+        "B_div_R": {
+          "p01": 1.5088852459016393,
+          "p10": 1.5277060575968224,
+          "median": 1.7204861111111112,
+          "p90": 2.0533333333333332,
+          "p99": 2.3828125000000004
+        },
+        "B_div_G": {
+          "p01": 1.5524905380944545,
+          "p10": 1.7156015037593983,
+          "median": 2.86,
+          "p90": 7.179365079365077,
+          "p99": 21.730000000000004
+        },
+        "red_zero_fraction": 0.0
+      },
+      "native_nonblue": {
+        "count": 40568,
+        "BGRN_medians": [
+          317.0,
+          392.0,
+          390.0,
+          2330.0
+        ],
+        "B_div_R": {
+          "p01": 0.5742078271560358,
+          "p10": 0.660377358490566,
+          "median": 0.7944823715731045,
+          "p90": 0.9481481481481482,
+          "p99": 1.2007878663206533
+        },
+        "B_div_G": {
+          "p01": 0.6707588307938571,
+          "p10": 0.7372881355932204,
+          "median": 0.823943661971831,
+          "p90": 0.9569643238624227,
+          "p99": 1.2868397813288492
+        },
+        "red_zero_fraction": 0.0
+      },
+      "upsampled_blue": {
+        "count": 1110,
+        "BGRN_medians": [
+          80.0,
+          26.0,
+          46.0,
+          612.5
+        ],
+        "B_div_R": {
+          "p01": 1.5082217282578494,
+          "p10": 1.5383467278989669,
+          "median": 1.7372735116479725,
+          "p90": 2.0573109243697476,
+          "p99": 2.8738362068965526
+        },
+        "B_div_G": {
+          "p01": 1.524375514233997,
+          "p10": 1.6741642441860467,
+          "median": 3.0,
+          "p90": 6.705000000000001,
+          "p99": 21.700000000000273
+        },
+        "red_zero_fraction": 0.0
+      },
+      "fused_at_same_blue_pixels": {
+        "count": 1110,
+        "BGRN_medians": [
+          13.0,
+          4.0,
+          8.0,
+          101.0
+        ],
+        "B_div_R": {
+          "p01": 0.0,
+          "p10": 1.5,
+          "median": 1.7272727272727273,
+          "p90": 2.0,
+          "p99": 3.0
+        },
+        "B_div_G": {
+          "p01": 0.0,
+          "p10": 1.6153846153846154,
+          "median": 3.0,
+          "p90": 6.0,
+          "p99": 10.955000000000041
+        },
+        "red_zero_fraction": 0.021621621621621623
+      },
+      "gain_blue": {
+        "p01": 0.0,
+        "p10": 0.04704305939376354,
+        "median": 0.15762607753276825,
+        "p90": 0.3594247311353683,
+        "p99": 0.5635232692956926
+      },
+      "gain_all": {
+        "p01": 0.0715467669814825,
+        "p10": 0.24769077450037005,
+        "median": 0.3906000554561615,
+        "p90": 0.6172611057758332,
+        "p99": 0.8744638997316359
+      },
+      "gain_dark_quartile": {
+        "p01": 0.0,
+        "p10": 0.160429947078228,
+        "median": 0.33603745698928833,
+        "p90": 0.4927210807800293,
+        "p99": 0.6769806027412405
+      },
+      "pan_at_blue": {
+        "p01": 0.0,
+        "p10": 9.0,
+        "median": 32.0,
+        "p90": 64.0,
+        "p99": 86.82000000000016
+      },
+      "pan_at_dark_quartile": {
+        "p01": 0.0,
+        "p10": 71.0,
+        "median": 199.0,
+        "p90": 312.0,
+        "p99": 415.0
+      },
+      "expected_brovey_exact_fraction": 1.0,
+      "saturated_any_band_fraction": 0.0004769242057377651,
+      "dark_fused_visible_all_at_most5_fraction": 0.030576483948567032,
+      "display_high_common_ms_and_fused": 1605.2599999999948,
+      "display_high_fused_independent": 1228.0,
+      "display_high_pan": 1484.0,
+      "comparison": "E:\\MyPythonProject\\segformer\\.showcase_work\\raw_color_check\\M02_scene2_comparison.jpg"
+    }
+  ]
+}

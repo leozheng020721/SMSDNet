@@ -1,0 +1,68 @@
+{
+  "source": "E:\\Dataset\\21century\\registration_output\\rectified\\4\\region_01\\image_1_rectified.tif",
+  "crop": {
+    "x": 5120,
+    "y": 3072,
+    "size": 1024
+  },
+  "modes": {
+    "real": {
+      "mean_absolute_difference_vs_saved": 0.0,
+      "max_absolute_difference_vs_saved": 0.0,
+      "binary_agreement_vs_saved": 1.0,
+      "shadow_fraction": 0.09654081932380418
+    },
+    "no_nir": {
+      "mean_absolute_difference_vs_saved": 0.006416231393814087,
+      "max_absolute_difference_vs_saved": 0.3425876200199127,
+      "binary_agreement_vs_saved": 0.9948987766219201,
+      "shadow_fraction": 0.09593714117866965
+    },
+    "hflip": {
+      "mean_absolute_difference_vs_saved": 0.009633385576307774,
+      "max_absolute_difference_vs_saved": 0.5971432328224182,
+      "binary_agreement_vs_saved": 0.9909047733488974,
+      "shadow_fraction": 0.09291207470731623
+    }
+  },
+  "batch_groups": [
+    {
+      "top": 2688,
+      "columns": [
+        4608,
+        4992,
+        5376,
+        5760
+      ]
+    },
+    {
+      "top": 3072,
+      "columns": [
+        4608,
+        4992,
+        5376,
+        5760
+      ]
+    },
+    {
+      "top": 3456,
+      "columns": [
+        4608,
+        4992,
+        5376,
+        5760
+      ]
+    },
+    {
+      "top": 3840,
+      "columns": [
+        4608,
+        4992,
+        5376,
+        5760
+      ]
+    }
+  ],
+  "note": "Input sensitivity of the same trained model, not a retrained RGB-only ablation.",
+  "elapsed_seconds": 15.898370499999999
+}

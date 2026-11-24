@@ -1,0 +1,23 @@
+{
+  "samples": 9,
+  "by_cohort": {
+    "failed_matching": {
+      "n": 6,
+      "orb500_crosscheck": 0,
+      "orb8000_crosscheck": 0,
+      "orb8000_mutual_ratio": 0,
+      "sift5000_mutual_ratio": 0,
+      "any_fullres_method": 0
+    },
+    "accepted_control": {
+      "n": 3,
+      "orb500_crosscheck": 0,
+      "orb8000_crosscheck": 0,
+      "orb8000_mutual_ratio": 3,
+      "sift5000_mutual_ratio": 3,
+      "any_fullres_method": 3
+    }
+  },
+  "execution_errors": 0,
+  "caution": "Small diagnostic sample; PAN ensemble selection is not independent external validation."
+}

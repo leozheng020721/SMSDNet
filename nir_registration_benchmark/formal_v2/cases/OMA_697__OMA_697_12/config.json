@@ -1,0 +1,27 @@
+{
+  "weights_sha256": "21f5bec5968178e8bc8b7633441836fe5de4f47d861dd2cd7dc38e271b0479ec",
+  "loftr_edge": 640,
+  "confidence_candidates": [
+    0.5,
+    0.2
+  ],
+  "evaluation": "spatial block holdout, no refit using validation points",
+  "source_root": "E:\\Dataset\\SEO",
+  "sample_count": 1,
+  "sample_keys": [
+    "OMA_697/OMA_697_12"
+  ],
+  "validation_thresholds": {
+    "median_msi_px": 0.75,
+    "p90_msi_px": 3.0,
+    "holdout_fraction": 0.65,
+    "min_hull_coverage": 0.05,
+    "min_valid_fraction": 0.1,
+    "source_guard_px": 4
+  },
+  "code_sha256": {
+    "compare_seo_nir_registration.py": "54fba6264c122f67a2127112368686f0b55aaa5aa83f3e545cdf29ee3bdae096",
+    "nir_registration_metrics.py": "0ac075091abdc2a36247ff5139163515e7754cdc355e3fc27bf5de2e87091120",
+    "nir_registration_pan.py": "73a5e79a5b85473620f818564cb7f07653ccb68bfb27bc62263e05a0b1ecb5b1"
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "key": "JAX_255/JAX_255_24",
+    "caution": "RGB luminance edges are not human shadow ground truth; nearby building/vegetation texture can bias these distances.",
+    "min_boundary_to_rgb_edge": {
+      "boundary_pixels_excluding_uncertainty": 15926,
+      "median_px": 1.909999966621399,
+      "p90_px": 6.684999942779541,
+      "fraction_within_3px": 0.6385156348110009
+    },
+    "max_boundary_to_rgb_edge": {
+      "boundary_pixels_excluding_uncertainty": 46987,
+      "median_px": 1.3693000078201294,
+      "p90_px": 5.603600025177002,
+      "fraction_within_3px": 0.7676378572796732
+    }
+  },
+  {
+    "key": "JAX_231/JAX_231_24",
+    "caution": "RGB luminance edges are not human shadow ground truth; nearby building/vegetation texture can bias these distances.",
+    "min_boundary_to_rgb_edge": {
+      "boundary_pixels_excluding_uncertainty": 14454,
+      "median_px": 2.865000009536743,
+      "p90_px": 6.1442999839782715,
+      "fraction_within_3px": 0.5577002905770029
+    },
+    "max_boundary_to_rgb_edge": {
+      "boundary_pixels_excluding_uncertainty": 57635,
+      "median_px": 0.9549999833106995,
+      "p90_px": 4.775000095367432,
+      "fraction_within_3px": 0.822642491541598
+    }
+  },
+  {
+    "key": "OMA_260/OMA_260_0",
+    "caution": "RGB luminance edges are not human shadow ground truth; nearby building/vegetation texture can bias these distances.",
+    "min_boundary_to_rgb_edge": {
+      "boundary_pixels_excluding_uncertainty": 30388,
+      "median_px": 1.909999966621399,
+      "p90_px": 5.477200031280518,
+      "fraction_within_3px": 0.7036988284849283
+    },
+    "max_boundary_to_rgb_edge": {
+      "boundary_pixels_excluding_uncertainty": 76076,
+      "median_px": 0.9549999833106995,
+      "p90_px": 4.234300136566162,
+      "fraction_within_3px": 0.8249645091750355
+    }
+  },
+  {
+    "key": "OMA_194/OMA_194_0",
+    "caution": "RGB luminance edges are not human shadow ground truth; nearby building/vegetation texture can bias these distances.",
+    "min_boundary_to_rgb_edge": {
+      "boundary_pixels_excluding_uncertainty": 35540,
+      "median_px": 1.909999966621399,
+      "p90_px": 5.477200031280518,
+      "fraction_within_3px": 0.7191615081598199
+    },
+    "max_boundary_to_rgb_edge": {
+      "boundary_pixels_excluding_uncertainty": 89736,
+      "median_px": 1.3693000078201294,
+      "p90_px": 4.648600101470947,
+      "fraction_within_3px": 0.8152580903985023
+    }
+  },
+  {
+    "key": "UCSD_189/UCSD_189_0",
+    "caution": "RGB luminance edges are not human shadow ground truth; nearby building/vegetation texture can bias these distances.",
+    "min_boundary_to_rgb_edge": {
+      "boundary_pixels_excluding_uncertainty": 39291,
+      "median_px": 0.9549999833106995,
+      "p90_px": 4.107900142669678,
+      "fraction_within_3px": 0.8502456033188261
+    },
+    "max_boundary_to_rgb_edge": {
+      "boundary_pixels_excluding_uncertainty": 92103,
+      "median_px": 0.9549999833106995,
+      "p90_px": 2.865000009536743,
+      "fraction_within_3px": 0.9237809843327579
+    }
+  },
+  {
+    "key": "UCSD_169/UCSD_169_0",
+    "caution": "RGB luminance edges are not human shadow ground truth; nearby building/vegetation texture can bias these distances.",
+    "min_boundary_to_rgb_edge": {
+      "boundary_pixels_excluding_uncertainty": 22133,
+      "median_px": 0.9549999833106995,
+      "p90_px": 3.6935999393463135,
+      "fraction_within_3px": 0.8735372520670492
+    },
+    "max_boundary_to_rgb_edge": {
+      "boundary_pixels_excluding_uncertainty": 75169,
+      "median_px": 0.9549999833106995,
+      "p90_px": 2.738600015640259,
+      "fraction_within_3px": 0.9330442070534396
+    }
+  }
+]

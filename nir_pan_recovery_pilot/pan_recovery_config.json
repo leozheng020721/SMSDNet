@@ -1,0 +1,26 @@
+{
+  "version": "seo-nir-pan-recovery-v2",
+  "source_root": "E:\\Dataset\\SEO",
+  "output": "E:\\MyPythonProject\\segformer\\nir_pan_recovery_pilot",
+  "selected_keys": [
+    "JAX_148/JAX_148_16",
+    "JAX_436/JAX_436_8",
+    "OMA_922/OMA_922_26",
+    "UCSD_291/UCSD_291_3"
+  ],
+  "options": {
+    "min_valid_fraction": 0.1,
+    "use_loftr": true,
+    "weights": "E:\\MyPythonProject\\segformer\\nir_registration_benchmark\\loftr_outdoor.ckpt"
+  },
+  "original_manifest_sha256": "9cc09a3c910491eedf7430611ceac8253a3f1dbd4f738a91174fdf5c7f5d4269",
+  "source_sha256": {
+    "recover_seo_nir_pan.py": "3be1a5de374910681d163d4209f7f051b85c258e074d0755a5f0ac0bfe2eb372",
+    "align_seo_nir.py": "0cbd6981b9c425dfa9291924dc9390af357f922d15cf453b5783cf055682ee00",
+    "nir_registration_metrics.py": "0ac075091abdc2a36247ff5139163515e7754cdc355e3fc27bf5de2e87091120",
+    "nir_registration_pan.py": "73a5e79a5b85473620f818564cb7f07653ccb68bfb27bc62263e05a0b1ecb5b1",
+    "compare_seo_nir_registration.py": "54fba6264c122f67a2127112368686f0b55aaa5aa83f3e545cdf29ee3bdae096",
+    "nir_registration_benchmark/pan_fullres_probe.py": "49b7a1c1582f44f0162b9ac8e0bcb6399e81840c55d919ad3108b98037510b1d"
+  },
+  "weights_sha256": "21f5bec5968178e8bc8b7633441836fe5de4f47d861dd2cd7dc38e271b0479ec"
+}

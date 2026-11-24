@@ -1,0 +1,8 @@
+{
+  "weights_sha256": "21f5bec5968178e8bc8b7633441836fe5de4f47d861dd2cd7dc38e271b0479ec",
+  "loftr_edge": 640,
+  "confidence": 0.5,
+  "evaluation": "spatial block holdout, no refit using validation points",
+  "source_root": "E:\\Dataset\\SEO",
+  "sample_count": 3
+}

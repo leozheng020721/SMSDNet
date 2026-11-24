@@ -1,0 +1,45 @@
+random_seed: 42
+
+experiment_name: "aisd_segformer_v1"
+device: "cuda"
+num_workers: 2
+pin_memory: true
+cudnn_benchmark: true
+
+model:
+  arch: "SegFormer"
+  encoder: "mit_b3"
+  encoder_weights: "imagenet"
+  ignore_index: 255 # 损失函数中忽略的标签值
+
+# 损失函数配置
+loss:
+  type: "combo"  # 黄金组合: Focal Loss + Dice Loss
+  focal_alpha: 0.25
+  focal_gamma: 3.0  # Round 1优化：提高至3.0以更关注难样本
+  focal_weight: 2.0  # Focal Loss权重
+  dice_weight: 1.0   # Dice Loss权重
+
+# 训练超参数
+training:
+  batch_size: 6  # 平衡显存和速度（8导致OOM）
+  epochs: 50
+  learning_rate: 6.0e-5 # Transformer通常需要比CNN更小的LR
+  weight_decay: 0.01
+  optimizer: "AdamW"
+  scheduler:
+    type: "CosineAnnealingWarmRestarts"
+    T_0: 10
+    T_mult: 2
+  mixed_precision: false # 关闭AMP (FP16)
+
+dataset:
+  type: "aisd"
+  root_dir: "E:/MyPythonProject/MAMNet/datasets/AISD"  # 请修改为你电脑上的实际路径
+  in_channels: 3                   # <--- 添加这一行，代表 RGB 三通道
+  num_classes: 2                   # 对应 Clear, Shadow, Semi, Cloud
+  normalization:
+    max_reflectance: 1.0           # 代码里默认是0.3，建议保留
+    mean: [0.485, 0.456, 0.406]    # 常见的ImageNet均值
+    std: [0.229, 0.224, 0.225]     # 常见的ImageNet标准差
+    div_value: 0.3  # 对应之前的 max_reflectance

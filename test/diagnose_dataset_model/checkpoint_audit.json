@@ -1,0 +1,823 @@
+{
+  "checkpoints": [
+    {
+      "path": "E:\\MyPythonProject\\segformer\\checkpoints\\seo_segformer_native512_aux_cca_nir_mixup_minmax_best.pth",
+      "bytes": 560180715,
+      "checkpoint_keys": [
+        "epoch",
+        "model_state_dict",
+        "optimizer_state_dict",
+        "scheduler_state_dict",
+        "scaler_state_dict",
+        "config",
+        "model_variant",
+        "ber",
+        "iou",
+        "f1",
+        "kappa",
+        "best_ber"
+      ],
+      "epoch_zero_based": 12,
+      "epoch_one_based": 13,
+      "ber": 13.138609637303631,
+      "best_ber": 13.138609637303631,
+      "model_variant": "multicolor",
+      "config": {
+        "random_seed": 42,
+        "experiment_name": "seo_segformer_native512_aux_cca_nir_mixup_minmax",
+        "device": "cuda",
+        "num_workers": 2,
+        "prefetch_factor": 1,
+        "pin_memory": true,
+        "cudnn_benchmark": true,
+        "model": {
+          "arch": "SegFormer",
+          "variant": "multicolor",
+          "encoder": "mit_b3",
+          "encoder_weights": "imagenet",
+          "ignore_index": 255,
+          "multicolor": {
+            "aux_channels": [
+              8,
+              16,
+              32,
+              64
+            ],
+            "pooling": "avg",
+            "gate_channels": 16,
+            "gate_bias": -2.0,
+            "auxiliary_supervision": true,
+            "aux_decoder_channels": 16,
+            "nir": {
+              "enabled": true
+            },
+            "cross_scale_attention": {
+              "enabled": true,
+              "attention_channels": 64
+            }
+          }
+        },
+        "loss": {
+          "type": "combo",
+          "focal_alpha": 0.25,
+          "focal_gamma": 3.0,
+          "focal_weight": 2.0,
+          "dice_weight": 1.0,
+          "auxiliary_weight": 0.4
+        },
+        "training": {
+          "batch_size": 12,
+          "epochs": 50,
+          "learning_rate": 6e-05,
+          "weight_decay": 0.01,
+          "optimizer": "AdamW",
+          "scheduler": {
+            "type": "CosineAnnealingLR",
+            "T_max": 50,
+            "eta_min": 1e-06
+          },
+          "mixed_precision": true,
+          "mixup": {
+            "enabled": true,
+            "alpha": 0.2,
+            "probability": 0.5
+          }
+        },
+        "dataset": {
+          "type": "seo",
+          "root_dir": "/data/data_set/SEO",
+          "supervision": {
+            "mode": "minmax_agreement",
+            "min_root": "shadows_min/shadows",
+            "max_root": "shadows_max/shadow_max_compressed",
+            "ignore_uncertainty": true,
+            "missing_policy": "skip"
+          },
+          "val_ratio": 0.2,
+          "spatial_mode": "crop",
+          "input_size": 512,
+          "tile_stride": 384,
+          "tile_batch_size": 4,
+          "in_channels": 3,
+          "num_classes": 2,
+          "normalization": {
+            "max_reflectance": 1.0,
+            "mean": [
+              0.485,
+              0.456,
+              0.406
+            ],
+            "std": [
+              0.229,
+              0.224,
+              0.225
+            ],
+            "div_value": 0.3
+          },
+          "nir": {
+            "enabled": true,
+            "root_dir": "/data/data_set/SEO/nir_aligned_v1",
+            "manifest": "registration_with_candidates.csv",
+            "include_candidates": false,
+            "normalization": {
+              "percentiles": [
+                1.0,
+                99.0
+              ]
+            },
+            "crop_retries": 4,
+            "min_valid_fraction": 0.05
+          }
+        }
+      },
+      "effective_supervision_mode": "minmax_agreement",
+      "effective_nir_enabled": true,
+      "state_tensor_count": 719,
+      "state_elements": 46598014,
+      "nir_state_keys": [
+        "auxiliary_heads.nir.projections.0.weight",
+        "auxiliary_heads.nir.projections.0.bias",
+        "auxiliary_heads.nir.projections.1.weight",
+        "auxiliary_heads.nir.projections.1.bias",
+        "auxiliary_heads.nir.projections.2.weight",
+        "auxiliary_heads.nir.projections.2.bias",
+        "auxiliary_heads.nir.projections.3.weight",
+        "auxiliary_heads.nir.projections.3.bias",
+        "auxiliary_heads.nir.classifier.0.weight",
+        "auxiliary_heads.nir.classifier.0.bias",
+        "auxiliary_heads.nir.classifier.2.weight",
+        "auxiliary_heads.nir.classifier.2.bias",
+        "nir_encoder.stages.0.1.weight",
+        "nir_encoder.stages.0.1.bias",
+        "nir_encoder.stages.1.1.weight",
+        "nir_encoder.stages.1.1.bias",
+        "nir_encoder.stages.2.1.weight",
+        "nir_encoder.stages.2.1.bias",
+        "nir_encoder.stages.3.1.weight",
+        "nir_encoder.stages.3.1.bias",
+        "nir_fusions.0.nir_projection.weight",
+        "nir_fusions.0.gate.0.weight",
+        "nir_fusions.0.gate.0.bias",
+        "nir_fusions.0.gate.2.weight",
+        "nir_fusions.0.gate.2.bias",
+        "nir_fusions.0.merge.weight",
+        "nir_fusions.1.nir_projection.weight",
+        "nir_fusions.1.gate.0.weight",
+        "nir_fusions.1.gate.0.bias",
+        "nir_fusions.1.gate.2.weight",
+        "nir_fusions.1.gate.2.bias",
+        "nir_fusions.1.merge.weight",
+        "nir_fusions.2.nir_projection.weight",
+        "nir_fusions.2.gate.0.weight",
+        "nir_fusions.2.gate.0.bias",
+        "nir_fusions.2.gate.2.weight",
+        "nir_fusions.2.gate.2.bias",
+        "nir_fusions.2.merge.weight",
+        "nir_fusions.3.nir_projection.weight",
+        "nir_fusions.3.gate.0.weight",
+        "nir_fusions.3.gate.0.bias",
+        "nir_fusions.3.gate.2.weight",
+        "nir_fusions.3.gate.2.bias",
+        "nir_fusions.3.merge.weight"
+      ],
+      "scheduler_state": {
+        "T_max": 50,
+        "eta_min": 1e-06,
+        "base_lrs": [
+          6e-05
+        ],
+        "last_epoch": 13,
+        "verbose": false,
+        "_step_count": 14,
+        "_get_lr_called_within_step": false,
+        "_last_lr": [
+          5.069413962489632e-05
+        ]
+      },
+      "scaler_state": {
+        "scale": 65536.0,
+        "growth_factor": 2.0,
+        "backoff_factor": 0.5,
+        "growth_interval": 2000,
+        "_growth_tracker": 1186
+      },
+      "optimizer_group_summary": [
+        {
+          "lr": 5.069413962489632e-05,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0.01,
+          "amsgrad": false,
+          "foreach": null,
+          "maximize": false,
+          "capturable": false,
+          "differentiable": false,
+          "fused": null,
+          "initial_lr": 6e-05
+        }
+      ],
+      "history": {
+        "path": "E:\\MyPythonProject\\segformer\\checkpoints\\seo_segformer_native512_aux_cca_nir_mixup_minmax_history.csv",
+        "exists": true,
+        "rows": 50,
+        "parsed_rows": 50,
+        "first_epoch": 1.0,
+        "last_epoch": 50.0,
+        "first_row": {
+          "epoch": 1.0,
+          "learning_rate": 6e-05,
+          "train_main": 0.27975622098340913,
+          "train_aux_rgb": 0.11480589023933988,
+          "train_aux_hsv": 0.19247382506412736,
+          "train_aux_lab": 0.19397729768983193,
+          "train_aux_nir": 0.19322621680411314,
+          "train_aux": 0.17362080717571302,
+          "train_total": 0.349204545097771,
+          "train_mixup_fraction": 0.497883149872989,
+          "train_mixup_lambda": 0.763631864213145,
+          "val_main_loss": 0.28209010327168277,
+          "ber": 16.54522567963482,
+          "iou": 0.5466669538508092,
+          "f1": 0.706896791826769,
+          "kappa": 0.6929025008515772,
+          "shadow_miss": 31.86612409294776,
+          "background_false_positive": 1.2243272663218823
+        },
+        "last_row": {
+          "epoch": 50.0,
+          "learning_rate": 1.058211511365989e-06,
+          "train_main": 0.20450545000787715,
+          "train_aux_rgb": 0.0873398171102188,
+          "train_aux_hsv": 0.17512980962738356,
+          "train_aux_lab": 0.1753489448358506,
+          "train_aux_nir": 0.18288902486031788,
+          "train_aux": 0.1551768990812364,
+          "train_total": 0.26657621028764483,
+          "train_mixup_fraction": 0.5088907705334462,
+          "train_mixup_lambda": 0.7598538729539973,
+          "val_main_loss": 0.23678059444495886,
+          "ber": 13.526580843905109,
+          "iou": 0.6207297914244974,
+          "f1": 0.7659880070186449,
+          "kappa": 0.7548041340469741,
+          "shadow_miss": 26.10677746610132,
+          "background_false_positive": 0.9463842217088974
+        },
+        "best_row": {
+          "epoch": 13.0,
+          "learning_rate": 5.2004574508931644e-05,
+          "train_main": 0.2300253431363998,
+          "train_aux_rgb": 0.09687227406440449,
+          "train_aux_hsv": 0.17460093749442612,
+          "train_aux_lab": 0.1760946299934367,
+          "train_aux_nir": 0.1856962851202155,
+          "train_aux": 0.15831603154943819,
+          "train_total": 0.29335175660280327,
+          "train_mixup_fraction": 0.48433530906011857,
+          "train_mixup_lambda": 0.7588717676579337,
+          "val_main_loss": 0.25671645141339716,
+          "ber": 13.138609637303631,
+          "iou": 0.5829301233675098,
+          "f1": 0.7365203488924578,
+          "kappa": 0.7231495835432062,
+          "shadow_miss": 24.839125499473404,
+          "background_false_positive": 1.4380937751338565
+        }
+      },
+      "initialization_provenance": {
+        "encoder_weights_config": "imagenet",
+        "explicit_init_fields": {},
+        "limitation": "Config encoder_weights is not proof of the original --init-from or --resume command."
+      }
+    },
+    {
+      "path": "E:\\MyPythonProject\\segformer\\checkpoints\\seo_segformer_native512_aux_cca_nir_mixup_best.pth",
+      "bytes": 560160212,
+      "checkpoint_keys": [
+        "epoch",
+        "model_state_dict",
+        "optimizer_state_dict",
+        "scheduler_state_dict",
+        "scaler_state_dict",
+        "config",
+        "model_variant",
+        "ber",
+        "iou",
+        "f1",
+        "kappa",
+        "best_ber"
+      ],
+      "epoch_zero_based": 3,
+      "epoch_one_based": 4,
+      "ber": 21.065203584002813,
+      "best_ber": 21.065203584002813,
+      "model_variant": "multicolor",
+      "config": {
+        "random_seed": 42,
+        "experiment_name": "seo_segformer_native512_aux_cca_nir_mixup",
+        "device": "cuda",
+        "num_workers": 2,
+        "pin_memory": true,
+        "cudnn_benchmark": true,
+        "model": {
+          "arch": "SegFormer",
+          "variant": "multicolor",
+          "encoder": "mit_b3",
+          "encoder_weights": "imagenet",
+          "ignore_index": 255,
+          "multicolor": {
+            "aux_channels": [
+              8,
+              16,
+              32,
+              64
+            ],
+            "pooling": "avg",
+            "gate_channels": 16,
+            "gate_bias": -2.0,
+            "auxiliary_supervision": true,
+            "aux_decoder_channels": 16,
+            "nir": {
+              "enabled": true
+            },
+            "cross_scale_attention": {
+              "enabled": true,
+              "attention_channels": 64
+            }
+          }
+        },
+        "loss": {
+          "type": "combo",
+          "focal_alpha": 0.25,
+          "focal_gamma": 3.0,
+          "focal_weight": 2.0,
+          "dice_weight": 1.0,
+          "auxiliary_weight": 0.4
+        },
+        "training": {
+          "batch_size": 6,
+          "epochs": 50,
+          "learning_rate": 6e-05,
+          "weight_decay": 0.01,
+          "optimizer": "AdamW",
+          "scheduler": {
+            "type": "CosineAnnealingLR",
+            "T_max": 50,
+            "eta_min": 1e-06
+          },
+          "mixed_precision": false,
+          "mixup": {
+            "enabled": true,
+            "alpha": 0.2,
+            "probability": 0.5
+          }
+        },
+        "dataset": {
+          "type": "seo",
+          "root_dir": "E:/Dataset/SEO",
+          "val_ratio": 0.2,
+          "spatial_mode": "crop",
+          "input_size": 512,
+          "tile_stride": 384,
+          "tile_batch_size": 4,
+          "in_channels": 3,
+          "num_classes": 2,
+          "normalization": {
+            "max_reflectance": 1.0,
+            "mean": [
+              0.485,
+              0.456,
+              0.406
+            ],
+            "std": [
+              0.229,
+              0.224,
+              0.225
+            ],
+            "div_value": 0.3
+          },
+          "nir": {
+            "enabled": true,
+            "root_dir": "E:/Dataset/SEO/nir_aligned_v1",
+            "manifest": "registration_with_candidates.csv",
+            "include_candidates": false,
+            "normalization": {
+              "percentiles": [
+                1.0,
+                99.0
+              ]
+            },
+            "crop_retries": 4,
+            "min_valid_fraction": 0.05
+          }
+        }
+      },
+      "effective_supervision_mode": "max",
+      "effective_nir_enabled": true,
+      "state_tensor_count": 719,
+      "state_elements": 46598014,
+      "nir_state_keys": [
+        "auxiliary_heads.nir.projections.0.weight",
+        "auxiliary_heads.nir.projections.0.bias",
+        "auxiliary_heads.nir.projections.1.weight",
+        "auxiliary_heads.nir.projections.1.bias",
+        "auxiliary_heads.nir.projections.2.weight",
+        "auxiliary_heads.nir.projections.2.bias",
+        "auxiliary_heads.nir.projections.3.weight",
+        "auxiliary_heads.nir.projections.3.bias",
+        "auxiliary_heads.nir.classifier.0.weight",
+        "auxiliary_heads.nir.classifier.0.bias",
+        "auxiliary_heads.nir.classifier.2.weight",
+        "auxiliary_heads.nir.classifier.2.bias",
+        "nir_encoder.stages.0.1.weight",
+        "nir_encoder.stages.0.1.bias",
+        "nir_encoder.stages.1.1.weight",
+        "nir_encoder.stages.1.1.bias",
+        "nir_encoder.stages.2.1.weight",
+        "nir_encoder.stages.2.1.bias",
+        "nir_encoder.stages.3.1.weight",
+        "nir_encoder.stages.3.1.bias",
+        "nir_fusions.0.nir_projection.weight",
+        "nir_fusions.0.gate.0.weight",
+        "nir_fusions.0.gate.0.bias",
+        "nir_fusions.0.gate.2.weight",
+        "nir_fusions.0.gate.2.bias",
+        "nir_fusions.0.merge.weight",
+        "nir_fusions.1.nir_projection.weight",
+        "nir_fusions.1.gate.0.weight",
+        "nir_fusions.1.gate.0.bias",
+        "nir_fusions.1.gate.2.weight",
+        "nir_fusions.1.gate.2.bias",
+        "nir_fusions.1.merge.weight",
+        "nir_fusions.2.nir_projection.weight",
+        "nir_fusions.2.gate.0.weight",
+        "nir_fusions.2.gate.0.bias",
+        "nir_fusions.2.gate.2.weight",
+        "nir_fusions.2.gate.2.bias",
+        "nir_fusions.2.merge.weight",
+        "nir_fusions.3.nir_projection.weight",
+        "nir_fusions.3.gate.0.weight",
+        "nir_fusions.3.gate.0.bias",
+        "nir_fusions.3.gate.2.weight",
+        "nir_fusions.3.gate.2.bias",
+        "nir_fusions.3.merge.weight"
+      ],
+      "scheduler_state": {
+        "T_max": 50,
+        "eta_min": 1e-06,
+        "base_lrs": [
+          6e-05
+        ],
+        "last_epoch": 4,
+        "verbose": false,
+        "_step_count": 5,
+        "_get_lr_called_within_step": false,
+        "_last_lr": [
+          5.9073203253294615e-05
+        ]
+      },
+      "scaler_state": {},
+      "optimizer_group_summary": [
+        {
+          "lr": 5.9073203253294615e-05,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0.01,
+          "amsgrad": false,
+          "foreach": null,
+          "maximize": false,
+          "capturable": false,
+          "differentiable": false,
+          "fused": null,
+          "initial_lr": 6e-05
+        }
+      ],
+      "history": {
+        "path": "E:\\MyPythonProject\\segformer\\checkpoints\\seo_segformer_native512_aux_cca_nir_mixup_history.csv",
+        "exists": true,
+        "rows": 17,
+        "parsed_rows": 17,
+        "first_epoch": 1.0,
+        "last_epoch": 17.0,
+        "first_row": {
+          "epoch": 1.0,
+          "learning_rate": 6e-05,
+          "train_main": 0.4710348794060583,
+          "train_aux_rgb": 0.3509165609972803,
+          "train_aux_hsv": 0.446682867556307,
+          "train_aux_lab": 0.46803903981187456,
+          "train_aux_nir": 0.48333182881863135,
+          "train_aux": 0.43724257441715814,
+          "train_total": 0.6459319143858109,
+          "train_mixup_fraction": 0.4953547297297297,
+          "train_mixup_lambda": 0.7649177145317836,
+          "val_main_loss": 0.4515578569137815,
+          "ber": 22.953865592268567,
+          "iou": 0.41343997670204236,
+          "f1": 0.5850124285669569,
+          "kappa": 0.5041618635789057,
+          "shadow_miss": 36.31229621876738,
+          "background_false_positive": 9.595434965769764
+        },
+        "last_row": {
+          "epoch": 17.0,
+          "learning_rate": 4.63068904518804e-05,
+          "train_main": 0.3744417422048345,
+          "train_aux_rgb": 0.2790844885512834,
+          "train_aux_hsv": 0.3992302769644035,
+          "train_aux_lab": 0.40018875402322895,
+          "train_aux_nir": 0.40927419542158777,
+          "train_aux": 0.37194442902565805,
+          "train_total": 0.5232195173188843,
+          "train_mixup_fraction": 0.5168918918918919,
+          "train_mixup_lambda": 0.7419451492363581,
+          "val_main_loss": 0.40796049006228025,
+          "ber": 22.210258668471827,
+          "iou": 0.45983218117216307,
+          "f1": 0.6299795101145719,
+          "kappa": 0.5660112054314239,
+          "shadow_miss": 38.38462541201035,
+          "background_false_positive": 6.035891924933304
+        },
+        "best_row": {
+          "epoch": 4.0,
+          "learning_rate": 5.947747389649632e-05,
+          "train_main": 0.41198126732598284,
+          "train_aux_rgb": 0.30580708500929177,
+          "train_aux_hsv": 0.41362646336642067,
+          "train_aux_lab": 0.4123791325837374,
+          "train_aux_nir": 0.4120075801903432,
+          "train_aux": 0.3859550653566682,
+          "train_total": 0.5663632964589507,
+          "train_mixup_fraction": 0.5177364864864865,
+          "train_mixup_lambda": 0.7388094546610152,
+          "val_main_loss": 0.4393408645015804,
+          "ber": 21.065203584002813,
+          "iou": 0.43773898537203126,
+          "f1": 0.6089269190384531,
+          "kappa": 0.5313597831921926,
+          "shadow_miss": 32.51161947861658,
+          "background_false_positive": 9.618787689389045
+        }
+      },
+      "initialization_provenance": {
+        "encoder_weights_config": "imagenet",
+        "explicit_init_fields": {},
+        "limitation": "Config encoder_weights is not proof of the original --init-from or --resume command."
+      }
+    },
+    {
+      "path": "E:\\MyPythonProject\\segformer\\checkpoints\\seo_segformer_native512_aux_cca_scratch_mixup_best.pth",
+      "bytes": 551330616,
+      "checkpoint_keys": [
+        "epoch",
+        "model_state_dict",
+        "optimizer_state_dict",
+        "scheduler_state_dict",
+        "scaler_state_dict",
+        "config",
+        "model_variant",
+        "ber",
+        "iou",
+        "f1",
+        "kappa",
+        "best_ber"
+      ],
+      "epoch_zero_based": 42,
+      "epoch_one_based": 43,
+      "ber": 19.686669255802883,
+      "best_ber": 19.686669255802883,
+      "model_variant": "multicolor",
+      "config": {
+        "random_seed": 42,
+        "experiment_name": "seo_segformer_native512_aux_cca_scratch_mixup",
+        "device": "cuda",
+        "num_workers": 2,
+        "pin_memory": true,
+        "cudnn_benchmark": true,
+        "model": {
+          "arch": "SegFormer",
+          "variant": "multicolor",
+          "encoder": "mit_b3",
+          "encoder_weights": "imagenet",
+          "ignore_index": 255,
+          "multicolor": {
+            "aux_channels": [
+              8,
+              16,
+              32,
+              64
+            ],
+            "pooling": "avg",
+            "gate_channels": 16,
+            "gate_bias": -2.0,
+            "auxiliary_supervision": true,
+            "aux_decoder_channels": 16,
+            "cross_scale_attention": {
+              "enabled": true,
+              "attention_channels": 64
+            }
+          }
+        },
+        "loss": {
+          "type": "combo",
+          "focal_alpha": 0.25,
+          "focal_gamma": 3.0,
+          "focal_weight": 2.0,
+          "dice_weight": 1.0,
+          "auxiliary_weight": 0.4
+        },
+        "training": {
+          "batch_size": 6,
+          "epochs": 50,
+          "learning_rate": 6e-05,
+          "weight_decay": 0.01,
+          "optimizer": "AdamW",
+          "scheduler": {
+            "type": "CosineAnnealingLR",
+            "T_max": 50,
+            "eta_min": 1e-06
+          },
+          "mixed_precision": false,
+          "mixup": {
+            "enabled": true,
+            "alpha": 0.2,
+            "probability": 0.5
+          }
+        },
+        "dataset": {
+          "type": "seo",
+          "root_dir": "E:/Dataset/SEO",
+          "val_ratio": 0.2,
+          "spatial_mode": "crop",
+          "input_size": 512,
+          "tile_stride": 384,
+          "tile_batch_size": 4,
+          "in_channels": 3,
+          "num_classes": 2,
+          "normalization": {
+            "max_reflectance": 1.0,
+            "mean": [
+              0.485,
+              0.456,
+              0.406
+            ],
+            "std": [
+              0.229,
+              0.224,
+              0.225
+            ],
+            "div_value": 0.3
+          }
+        }
+      },
+      "effective_supervision_mode": "max",
+      "effective_nir_enabled": false,
+      "state_tensor_count": 675,
+      "state_elements": 45866504,
+      "nir_state_keys": [],
+      "scheduler_state": {
+        "T_max": 50,
+        "eta_min": 1e-06,
+        "base_lrs": [
+          6e-05
+        ],
+        "last_epoch": 43,
+        "verbose": false,
+        "_step_count": 44,
+        "_get_lr_called_within_step": false,
+        "_last_lr": [
+          3.8076019522524294e-06
+        ]
+      },
+      "scaler_state": {},
+      "optimizer_group_summary": [
+        {
+          "lr": 3.8076019522524294e-06,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0.01,
+          "amsgrad": false,
+          "foreach": null,
+          "maximize": false,
+          "capturable": false,
+          "differentiable": false,
+          "fused": null,
+          "initial_lr": 6e-05
+        }
+      ],
+      "history": {
+        "path": "E:\\MyPythonProject\\segformer\\checkpoints\\seo_segformer_native512_aux_cca_scratch_mixup_history.csv",
+        "exists": true,
+        "rows": 50,
+        "parsed_rows": 50,
+        "first_epoch": 1.0,
+        "last_epoch": 50.0,
+        "first_row": {
+          "epoch": 1.0,
+          "learning_rate": 6e-05,
+          "train_main": 0.4727031640891378,
+          "train_aux_rgb": 0.34883178356931055,
+          "train_aux_hsv": 0.44693481328707657,
+          "train_aux_lab": 0.46665345988718115,
+          "train_aux": 0.4208066967121026,
+          "train_total": 0.6410258472015399,
+          "train_mixup_fraction": 0.4972950478568456,
+          "train_mixup_lambda": 0.7632042043717464,
+          "val_main_loss": 0.4567800178189715,
+          "ber": 24.036349754622805,
+          "iou": 0.40932966853160935,
+          "f1": 0.5808856191299696,
+          "kappa": 0.5035377825259754,
+          "shadow_miss": 39.706116743957764,
+          "background_false_positive": 8.36658276528785
+        },
+        "last_row": {
+          "epoch": 50.0,
+          "learning_rate": 1.058211511365989e-06,
+          "train_main": 0.34470837946192107,
+          "train_aux_rgb": 0.2560288727134652,
+          "train_aux_hsv": 0.3982457105648602,
+          "train_aux_lab": 0.39618675701577516,
+          "train_aux": 0.35015379009621866,
+          "train_total": 0.4847698981346213,
+          "train_mixup_fraction": 0.5072825634623388,
+          "train_mixup_lambda": 0.7385614909943429,
+          "val_main_loss": 0.39217453475833014,
+          "ber": 20.21186105944163,
+          "iou": 0.48142403499618686,
+          "f1": 0.6499476498603265,
+          "kappa": 0.5866779721424985,
+          "shadow_miss": 33.782493326975874,
+          "background_false_positive": 6.641228791907389
+        },
+        "best_row": {
+          "epoch": 43.0,
+          "learning_rate": 4.648952938706024e-06,
+          "train_main": 0.3466179836890224,
+          "train_aux_rgb": 0.25759990224355067,
+          "train_aux_hsv": 0.3982047097748932,
+          "train_aux_lab": 0.39631448492029536,
+          "train_aux": 0.3507063757725869,
+          "train_total": 0.4869005377472216,
+          "train_mixup_fraction": 0.5076987099459009,
+          "train_mixup_lambda": 0.7511174234017076,
+          "val_main_loss": 0.39440905934928727,
+          "ber": 19.686669255802883,
+          "iou": 0.4812353485584819,
+          "f1": 0.6497756741044745,
+          "kappa": 0.5846703824984392,
+          "shadow_miss": 32.10654498478294,
+          "background_false_positive": 7.266793526822817
+        }
+      },
+      "initialization_provenance": {
+        "encoder_weights_config": "imagenet",
+        "explicit_init_fields": {},
+        "limitation": "Config encoder_weights is not proof of the original --init-from or --resume command."
+      }
+    }
+  ],
+  "comparison_assessment": {
+    "available_no_nir_best": "seo_segformer_native512_aux_cca_scratch_mixup_best.pth",
+    "fair_nir_ablation_available": false,
+    "shared_settings": [
+      "MiT-B3, HSV/Lab gates, cross-scale CCA, 512 crops, 384 validation stride",
+      "random_seed=42, val_ratio=0.2, grouped ground-plot split",
+      "AdamW, configured 50-epoch cosine schedule, initial LR 6e-5, MixUp"
+    ],
+    "confounders": [
+      "Current NIR Min/Max and both older checkpoints use different supervision/evaluation pixel sets.",
+      "NIR eligibility filtering runs after the common group split, so NIR and no-NIR validation sample sets can differ.",
+      "Current Min/Max uses batch 12 and AMP; both older runs use batch 6 and FP32.",
+      "Old NIR history ends at epoch 17, while no-NIR and current Min/Max histories reach epoch 50.",
+      "The Min/Max training guide transfers the old NIR best including auxiliary heads; original init commands are not embedded in checkpoints."
+    ],
+    "documented_initialization": {
+      "minmax": {
+        "source": "REMOTE_TRAINING.md:153",
+        "command_options": "--init-from checkpoints/seo_segformer_native512_aux_cca_nir_mixup_best.pth --init-auxiliary-heads",
+        "evidence_strength": "Documented intended command; checkpoint metadata cannot independently prove it was used."
+      },
+      "no_nir": {
+        "source": "SEO_CROP_AUX_GUIDE.md:51",
+        "description": "ImageNet RGB encoder; new task branches and optimizer; no shadow checkpoint transfer in documented command."
+      }
+    },
+    "interpretation": [
+      "BER 21.0652 to 13.1386 cannot quantify a pure improvement because the Min/Max evaluation protocol changed.",
+      "BER 19.6867 (no NIR) versus 13.1386 (NIR Min/Max) cannot quantify NIR benefit.",
+      "The current model's own SEO validation miss rate 24.8391% indicates substantial residual misses even in-domain, relative to its automatic labels.",
+      "Use exactly the same selected validation scenes and target pixels for diagnostic checkpoint comparisons; treat older checkpoint comparisons as exploratory, not controlled training ablations."
+    ]
+  }
+}

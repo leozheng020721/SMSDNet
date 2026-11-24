@@ -1,0 +1,54 @@
+{
+  "done": 57,
+  "elapsed_seconds": 159.92,
+  "sample_count": 57,
+  "execution_errors": 0,
+  "by_cohort": {
+    "accepted_control": {
+      "n": 9,
+      "pan_only": 9,
+      "formal_bridge": 9,
+      "rgb_fit": 9,
+      "end_to_end": 9,
+      "pan_pass_bridge_unverified": []
+    },
+    "failed_matching": {
+      "n": 48,
+      "pan_only": 1,
+      "formal_bridge": 43,
+      "rgb_fit": 0,
+      "end_to_end": 0,
+      "pan_pass_bridge_unverified": [
+        "UCSD_291/UCSD_291_3"
+      ]
+    }
+  },
+  "by_city": {
+    "JAX": {
+      "n": 19,
+      "pan_only": 3,
+      "formal_bridge": 18,
+      "rgb_fit": 3,
+      "end_to_end": 3,
+      "pan_pass_bridge_unverified": []
+    },
+    "OMA": {
+      "n": 19,
+      "pan_only": 3,
+      "formal_bridge": 17,
+      "rgb_fit": 3,
+      "end_to_end": 3,
+      "pan_pass_bridge_unverified": []
+    },
+    "UCSD": {
+      "n": 19,
+      "pan_only": 4,
+      "formal_bridge": 17,
+      "rgb_fit": 3,
+      "end_to_end": 3,
+      "pan_pass_bridge_unverified": [
+        "UCSD_291/UCSD_291_3"
+      ]
+    }
+  }
+}

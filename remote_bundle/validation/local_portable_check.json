@@ -1,0 +1,77 @@
+{
+  "manifest": {
+    "path": "E:\\MyPythonProject\\segformer\\remote_bundle\\validation\\registration_with_candidates.csv",
+    "rows": 19584,
+    "eligible_rows": 19584,
+    "row_paths_relative_to": "E:\\Dataset\\SEO\\nir_aligned_v1"
+  },
+  "source_manifest_unchanged": true,
+  "samples": {
+    "JAX_100/JAX_100_13": {
+      "index": 0,
+      "sources": {
+        "image": "E:\\Dataset\\SEO\\pansharpened_he\\JAX_100\\JAX_100_13_rgb.png",
+        "max_mask": "E:\\Dataset\\SEO\\shadows_max\\shadow_max_compressed\\shadow_masks\\JAX_100\\JAX_100_13_shadow.png",
+        "min_mask": "E:\\Dataset\\SEO\\shadows_min\\shadows\\shadow_masks\\JAX_100\\JAX_100_13_shadow.png",
+        "uncertainty_mask": "E:\\Dataset\\SEO\\shadows_min\\shadows\\uncertainty_masks\\JAX_100\\JAX_100_13_uncertainty_mask.png",
+        "nir": "E:\\Dataset\\SEO\\nir_aligned_v1\\JAX_100\\JAX_100_13_nir.tif",
+        "nir_valid": "E:\\Dataset\\SEO\\nir_aligned_v1\\JAX_100\\JAX_100_13_valid.png"
+      },
+      "image_shape": [
+        3,
+        1550,
+        1408
+      ],
+      "target_shape": [
+        1550,
+        1408
+      ],
+      "rgb_finite": true,
+      "label_counts": {
+        "0": 718203,
+        "1": 6718,
+        "255": 1457479
+      },
+      "nir_shape": [
+        1,
+        1550,
+        1408
+      ],
+      "nir_finite": true,
+      "nir_valid_fraction": 0.9933412671089172
+    },
+    "JAX_101/JAX_101_13": {
+      "index": 0,
+      "sources": {
+        "image": "E:\\Dataset\\SEO\\pansharpened_he\\JAX_101\\JAX_101_13_rgb.png",
+        "max_mask": "E:\\Dataset\\SEO\\shadows_max\\shadow_max_compressed\\shadow_masks\\JAX_101\\JAX_101_13_shadow.png",
+        "min_mask": "E:\\Dataset\\SEO\\shadows_min\\shadows\\shadow_masks\\JAX_101\\JAX_101_13_shadow.png",
+        "uncertainty_mask": "E:\\Dataset\\SEO\\shadows_min\\shadows\\uncertainty_masks\\JAX_101\\JAX_101_13_uncertainty_mask.png",
+        "nir": "E:\\Dataset\\SEO\\nir_aligned_v1\\JAX_101\\JAX_101_13_nir.tif",
+        "nir_valid": "E:\\Dataset\\SEO\\nir_aligned_v1\\JAX_101\\JAX_101_13_valid.png"
+      },
+      "image_shape": [
+        3,
+        1549,
+        1408
+      ],
+      "target_shape": [
+        1549,
+        1408
+      ],
+      "rgb_finite": true,
+      "label_counts": {
+        "0": 591468,
+        "1": 2242,
+        "255": 1587282
+      },
+      "nir_shape": [
+        1,
+        1549,
+        1408
+      ],
+      "nir_finite": true,
+      "nir_valid_fraction": 0.9929798245429993
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "sample_count": 57,
+  "sample_runtime_errors": 0,
+  "by_cohort": {
+    "failed_matching": {
+      "n": 48,
+      "direct_loftr": {
+        "accepted": 0,
+        "runtime_errors": 0
+      },
+      "pan_classical": {
+        "accepted": 0,
+        "runtime_errors": 0
+      },
+      "pan_loftr": {
+        "accepted": 0,
+        "runtime_errors": 0
+      },
+      "pan_any": {
+        "accepted": 0,
+        "runtime_errors": 0
+      }
+    },
+    "accepted_control": {
+      "n": 9,
+      "direct_loftr": {
+        "accepted": 9,
+        "runtime_errors": 0
+      },
+      "pan_classical": {
+        "accepted": 9,
+        "runtime_errors": 0
+      },
+      "pan_loftr": {
+        "accepted": 9,
+        "runtime_errors": 0
+      },
+      "pan_any": {
+        "accepted": 9,
+        "runtime_errors": 0
+      }
+    }
+  },
+  "by_city": {
+    "JAX": {
+      "n": 19,
+      "direct_loftr": {
+        "accepted": 3,
+        "runtime_errors": 0
+      },
+      "pan_classical": {
+        "accepted": 3,
+        "runtime_errors": 0
+      },
+      "pan_loftr": {
+        "accepted": 3,
+        "runtime_errors": 0
+      },
+      "pan_any": {
+        "accepted": 3,
+        "runtime_errors": 0
+      }
+    },
+    "OMA": {
+      "n": 19,
+      "direct_loftr": {
+        "accepted": 3,
+        "runtime_errors": 0
+      },
+      "pan_classical": {
+        "accepted": 3,
+        "runtime_errors": 0
+      },
+      "pan_loftr": {
+        "accepted": 3,
+        "runtime_errors": 0
+      },
+      "pan_any": {
+        "accepted": 3,
+        "runtime_errors": 0
+      }
+    },
+    "UCSD": {
+      "n": 19,
+      "direct_loftr": {
+        "accepted": 3,
+        "runtime_errors": 0
+      },
+      "pan_classical": {
+        "accepted": 3,
+        "runtime_errors": 0
+      },
+      "pan_loftr": {
+        "accepted": 3,
+        "runtime_errors": 0
+      },
+      "pan_any": {
+        "accepted": 3,
+        "runtime_errors": 0
+      }
+    }
+  },
+  "pan_grid_verified": 52,
+  "pan_same_grid": 52
+}

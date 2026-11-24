@@ -1,0 +1,352 @@
+{
+  "purpose": "Small deterministic held-out diagnostic; not an unbiased dataset-wide benchmark.",
+  "split": {
+    "method": "GroupShuffleSplit",
+    "random_seed": 42,
+    "val_ratio": 0.2,
+    "all_pairs": 17700,
+    "train_pairs_before_nir_filter": 14422,
+    "val_pairs_before_nir_filter": 3278,
+    "val_after_nir_filter": 3236,
+    "val_complete_supervision": 3236
+  },
+  "selection": "First up to 12 sorted validation AOIs per city with >=90% NIR coverage; choose two closest to 15% shadow with low uncertainty.",
+  "label_convention": "Source 0=shadow, 255=nonshadow. Training target 1=shadow; ignore Min/Max disagreement or nonzero Min uncertainty.",
+  "vegetation_masks": {
+    "local_root_directories": [
+      ".cache",
+      "crops",
+      "msi",
+      "nir_aligned_v1",
+      "pansharpened_he",
+      "rdsm_max_compressed",
+      "rpcs",
+      "shadows_max",
+      "shadows_min"
+    ],
+    "min_directories": [
+      "shadow_masks",
+      "uncertainty_masks"
+    ],
+    "max_directories": [
+      "shadows_max",
+      "shadow_masks",
+      "uncertainty_masks"
+    ],
+    "observation": "No separately named vegetation-mask directory in local SEO root or Min/Max label roots. No vegetation masks are loaded by dataset.py."
+  },
+  "samples": [
+    {
+      "key": "JAX_255/JAX_255_24",
+      "city": "JAX",
+      "aoi": "JAX_255",
+      "pair_index": 599,
+      "split": "val",
+      "rgb": "E:\\Dataset\\SEO\\pansharpened_he\\JAX_255\\JAX_255_24_rgb.png",
+      "nir": "E:\\Dataset\\SEO\\nir_aligned_v1\\JAX_255\\JAX_255_24_nir.tif",
+      "nir_valid": "E:\\Dataset\\SEO\\nir_aligned_v1\\JAX_255\\JAX_255_24_valid.png",
+      "min_mask": "E:\\Dataset\\SEO\\shadows_min\\shadows\\shadow_masks\\JAX_255\\JAX_255_24_shadow.png",
+      "max_mask": "E:\\Dataset\\SEO\\shadows_max\\shadow_max_compressed\\shadow_masks\\JAX_255\\JAX_255_24_shadow.png",
+      "uncertainty": "E:\\Dataset\\SEO\\shadows_min\\shadows\\uncertainty_masks\\JAX_255\\JAX_255_24_uncertainty_mask.png",
+      "registration_status": "original_rgb_ready",
+      "width": 1493,
+      "height": 1530,
+      "stats": {
+        "width": 1493,
+        "height": 1530,
+        "nir_coverage": 0.9933598623642357,
+        "min_shadow_fraction": 0.027748228114643936,
+        "max_shadow_fraction": 0.07345827368679109,
+        "minmax_disagreement_fraction": 0.07837227322275193,
+        "min_uncertainty_fraction": 0.13783363758542042,
+        "supervised_fraction": 0.7870668785486956,
+        "supervised_shadow_fraction": 0.014488658643553634,
+        "max_shadow_excluded_fraction": 0.844761620977354,
+        "max_shadow_excluded_by_disagreement_fraction": 0.8445768772348033,
+        "max_shadow_excluded_by_uncertainty_fraction": 0.0432657926102503,
+        "max_shadow_disagreement_only_fraction": 0.8014958283671036,
+        "max_shadow_uncertainty_only_fraction": 0.00018474374255065553,
+        "max_shadow_both_exclusion_fraction": 0.043081048867699645,
+        "min_only_shadow_fraction": 0.01633111382530239,
+        "max_only_shadow_fraction": 0.06204115939744954,
+        "supervised_shadow_pixels": 26049,
+        "max_shadow_pixels": 167800,
+        "mask_values": {
+          "min": [
+            0,
+            255
+          ],
+          "max": [
+            0,
+            255
+          ],
+          "uncertainty": [
+            0,
+            255
+          ]
+        }
+      },
+      "selection_score": 0.23396843220431732
+    },
+    {
+      "key": "JAX_231/JAX_231_24",
+      "city": "JAX",
+      "aoi": "JAX_231",
+      "pair_index": 466,
+      "split": "val",
+      "rgb": "E:\\Dataset\\SEO\\pansharpened_he\\JAX_231\\JAX_231_24_rgb.png",
+      "nir": "E:\\Dataset\\SEO\\nir_aligned_v1\\JAX_231\\JAX_231_24_nir.tif",
+      "nir_valid": "E:\\Dataset\\SEO\\nir_aligned_v1\\JAX_231\\JAX_231_24_valid.png",
+      "min_mask": "E:\\Dataset\\SEO\\shadows_min\\shadows\\shadow_masks\\JAX_231\\JAX_231_24_shadow.png",
+      "max_mask": "E:\\Dataset\\SEO\\shadows_max\\shadow_max_compressed\\shadow_masks\\JAX_231\\JAX_231_24_shadow.png",
+      "uncertainty": "E:\\Dataset\\SEO\\shadows_min\\shadows\\uncertainty_masks\\JAX_231\\JAX_231_24_uncertainty_mask.png",
+      "registration_status": "original_rgb_ready",
+      "width": 1494,
+      "height": 1530,
+      "stats": {
+        "width": 1494,
+        "height": 1530,
+        "nir_coverage": 0.9946819959576869,
+        "min_shadow_fraction": 0.02915846392104365,
+        "max_shadow_fraction": 0.0801165446098118,
+        "minmax_disagreement_fraction": 0.07754897585986648,
+        "min_uncertainty_fraction": 0.19960451829102904,
+        "supervised_fraction": 0.7302342266670167,
+        "supervised_shadow_fraction": 0.021082157509297955,
+        "max_shadow_excluded_fraction": 0.8078435227049341,
+        "max_shadow_excluded_by_disagreement_fraction": 0.8020007426337287,
+        "max_shadow_excluded_by_uncertainty_fraction": 0.0904211170084966,
+        "max_shadow_disagreement_only_fraction": 0.7174224056964376,
+        "max_shadow_uncertainty_only_fraction": 0.005842780071205469,
+        "max_shadow_both_exclusion_fraction": 0.08457833693729114,
+        "min_only_shadow_fraction": 0.013295447585549168,
+        "max_only_shadow_fraction": 0.06425352827431731,
+        "supervised_shadow_pixels": 35190,
+        "max_shadow_pixels": 183132,
+        "mask_values": {
+          "min": [
+            0,
+            255
+          ],
+          "max": [
+            0,
+            255
+          ],
+          "uncertainty": [
+            0,
+            255
+          ]
+        }
+      },
+      "selection_score": 0.28887521764618385
+    },
+    {
+      "key": "OMA_260/OMA_260_0",
+      "city": "OMA",
+      "aoi": "OMA_260",
+      "pair_index": 6693,
+      "split": "val",
+      "rgb": "E:\\Dataset\\SEO\\pansharpened_he\\OMA_260\\OMA_260_0_rgb.png",
+      "nir": "E:\\Dataset\\SEO\\nir_aligned_v1\\OMA_260\\OMA_260_0_nir.tif",
+      "nir_valid": "E:\\Dataset\\SEO\\nir_aligned_v1\\OMA_260\\OMA_260_0_valid.png",
+      "min_mask": "E:\\Dataset\\SEO\\shadows_min\\shadows\\shadow_masks\\OMA_260\\OMA_260_0_shadow.png",
+      "max_mask": "E:\\Dataset\\SEO\\shadows_max\\shadow_max_compressed\\shadow_masks\\OMA_260\\OMA_260_0_shadow.png",
+      "uncertainty": "E:\\Dataset\\SEO\\shadows_min\\shadows\\uncertainty_masks\\OMA_260\\OMA_260_0_uncertainty_mask.png",
+      "registration_status": "original_rgb_ready",
+      "width": 1606,
+      "height": 1632,
+      "stats": {
+        "width": 1606,
+        "height": 1632,
+        "nir_coverage": 0.9962640099626401,
+        "min_shadow_fraction": 0.043481628330036874,
+        "max_shadow_fraction": 0.10902360632920666,
+        "minmax_disagreement_fraction": 0.09880266708177667,
+        "min_uncertainty_fraction": 0.2953118513906185,
+        "supervised_fraction": 0.6214204392840573,
+        "supervised_shadow_fraction": 0.04290499761164779,
+        "max_shadow_excluded_fraction": 0.7554470691163605,
+        "max_shadow_excluded_by_disagreement_fraction": 0.7537112860892389,
+        "max_shadow_excluded_by_uncertainty_fraction": 0.13574103237095364,
+        "max_shadow_disagreement_only_fraction": 0.6197060367454068,
+        "max_shadow_uncertainty_only_fraction": 0.0017357830271216097,
+        "max_shadow_both_exclusion_fraction": 0.134005249343832,
+        "min_only_shadow_fraction": 0.016630344541303445,
+        "max_only_shadow_fraction": 0.08217232254047323,
+        "supervised_shadow_pixels": 69881,
+        "max_shadow_pixels": 285750,
+        "mask_values": {
+          "min": [
+            0,
+            255
+          ],
+          "max": [
+            0,
+            255
+          ],
+          "uncertainty": [
+            0,
+            255
+          ]
+        }
+      },
+      "selection_score": 0.36098891183185605
+    },
+    {
+      "key": "OMA_194/OMA_194_0",
+      "city": "OMA",
+      "aoi": "OMA_194",
+      "pair_index": 5757,
+      "split": "val",
+      "rgb": "E:\\Dataset\\SEO\\pansharpened_he\\OMA_194\\OMA_194_0_rgb.png",
+      "nir": "E:\\Dataset\\SEO\\nir_aligned_v1\\OMA_194\\OMA_194_0_nir.tif",
+      "nir_valid": "E:\\Dataset\\SEO\\nir_aligned_v1\\OMA_194\\OMA_194_0_valid.png",
+      "min_mask": "E:\\Dataset\\SEO\\shadows_min\\shadows\\shadow_masks\\OMA_194\\OMA_194_0_shadow.png",
+      "max_mask": "E:\\Dataset\\SEO\\shadows_max\\shadow_max_compressed\\shadow_masks\\OMA_194\\OMA_194_0_shadow.png",
+      "uncertainty": "E:\\Dataset\\SEO\\shadows_min\\shadows\\uncertainty_masks\\OMA_194\\OMA_194_0_uncertainty_mask.png",
+      "registration_status": "original_rgb_ready",
+      "width": 1607,
+      "height": 1632,
+      "stats": {
+        "width": 1607,
+        "height": 1632,
+        "nir_coverage": 0.9944814811425504,
+        "min_shadow_fraction": 0.05017036372732042,
+        "max_shadow_fraction": 0.11062355869541345,
+        "minmax_disagreement_fraction": 0.10894127408275071,
+        "min_uncertainty_fraction": 0.31208781739204705,
+        "supervised_fraction": 0.5950162890296131,
+        "supervised_shadow_fraction": 0.04338277889707428,
+        "max_shadow_excluded_fraction": 0.7666549475396727,
+        "max_shadow_excluded_by_disagreement_fraction": 0.7656346941307854,
+        "max_shadow_excluded_by_uncertainty_fraction": 0.1313162647695468,
+        "max_shadow_disagreement_only_fraction": 0.6353386827701258,
+        "max_shadow_uncertainty_only_fraction": 0.0010202534088872344,
+        "max_shadow_both_exclusion_fraction": 0.13029601136065957,
+        "min_only_shadow_fraction": 0.024244039557328845,
+        "max_only_shadow_fraction": 0.08469723452542187,
+        "supervised_shadow_pixels": 67699,
+        "max_shadow_pixels": 290124,
+        "mask_values": {
+          "min": [
+            0,
+            255
+          ],
+          "max": [
+            0,
+            255
+          ],
+          "uncertainty": [
+            0,
+            255
+          ]
+        }
+      },
+      "selection_score": 0.3786995772173213
+    },
+    {
+      "key": "UCSD_189/UCSD_189_0",
+      "city": "UCSD",
+      "aoi": "UCSD_189",
+      "pair_index": 11915,
+      "split": "val",
+      "rgb": "E:\\Dataset\\SEO\\pansharpened_he\\UCSD_189\\UCSD_189_0_rgb.png",
+      "nir": "E:\\Dataset\\SEO\\nir_aligned_v1\\UCSD_189\\UCSD_189_0_nir.tif",
+      "nir_valid": "E:\\Dataset\\SEO\\nir_aligned_v1\\UCSD_189\\UCSD_189_0_valid.png",
+      "min_mask": "E:\\Dataset\\SEO\\shadows_min\\shadows\\shadow_masks\\UCSD_189\\UCSD_189_0_shadow.png",
+      "max_mask": "E:\\Dataset\\SEO\\shadows_max\\shadow_max_compressed\\shadow_masks\\UCSD_189\\UCSD_189_0_shadow.png",
+      "uncertainty": "E:\\Dataset\\SEO\\shadows_min\\shadows\\uncertainty_masks\\UCSD_189\\UCSD_189_0_uncertainty_mask.png",
+      "registration_status": "original_rgb_ready",
+      "width": 1540,
+      "height": 1526,
+      "stats": {
+        "width": 1540,
+        "height": 1526,
+        "nir_coverage": 0.9922852376980817,
+        "min_shadow_fraction": 0.058383687086177256,
+        "max_shadow_fraction": 0.13304667154601624,
+        "minmax_disagreement_fraction": 0.14053420367312897,
+        "min_uncertainty_fraction": 0.10833007097751528,
+        "supervised_fraction": 0.7619576688056373,
+        "supervised_shadow_fraction": 0.03298892960079436,
+        "max_shadow_excluded_fraction": 0.8110725536916508,
+        "max_shadow_excluded_by_disagreement_fraction": 0.8087281915148802,
+        "max_shadow_excluded_by_uncertainty_fraction": 0.022858330801336896,
+        "max_shadow_disagreement_only_fraction": 0.788214222890314,
+        "max_shadow_uncertainty_only_fraction": 0.002344362176770665,
+        "max_shadow_both_exclusion_fraction": 0.02051396862456623,
+        "min_only_shadow_fraction": 0.032935609606644996,
+        "max_only_shadow_fraction": 0.10759859406648398,
+        "supervised_shadow_pixels": 59071,
+        "max_shadow_pixels": 312665,
+        "mask_values": {
+          "min": [
+            0,
+            255
+          ],
+          "max": [
+            0,
+            255
+          ],
+          "uncertainty": [
+            0,
+            255
+          ]
+        }
+      },
+      "selection_score": 0.16041695034978126
+    },
+    {
+      "key": "UCSD_169/UCSD_169_0",
+      "city": "UCSD",
+      "aoi": "UCSD_169",
+      "pair_index": 11766,
+      "split": "val",
+      "rgb": "E:\\Dataset\\SEO\\pansharpened_he\\UCSD_169\\UCSD_169_0_rgb.png",
+      "nir": "E:\\Dataset\\SEO\\nir_aligned_v1\\UCSD_169\\UCSD_169_0_nir.tif",
+      "nir_valid": "E:\\Dataset\\SEO\\nir_aligned_v1\\UCSD_169\\UCSD_169_0_valid.png",
+      "min_mask": "E:\\Dataset\\SEO\\shadows_min\\shadows\\shadow_masks\\UCSD_169\\UCSD_169_0_shadow.png",
+      "max_mask": "E:\\Dataset\\SEO\\shadows_max\\shadow_max_compressed\\shadow_masks\\UCSD_169\\UCSD_169_0_shadow.png",
+      "uncertainty": "E:\\Dataset\\SEO\\shadows_min\\shadows\\uncertainty_masks\\UCSD_169\\UCSD_169_0_uncertainty_mask.png",
+      "registration_status": "original_rgb_ready",
+      "width": 1537,
+      "height": 1526,
+      "stats": {
+        "width": 1537,
+        "height": 1526,
+        "nir_coverage": 0.9920228935706483,
+        "min_shadow_fraction": 0.025147284415607672,
+        "max_shadow_fraction": 0.07847878157906629,
+        "minmax_disagreement_fraction": 0.07472259196695577,
+        "min_uncertainty_fraction": 0.07570832526811348,
+        "supervised_fraction": 0.8522461672796233,
+        "supervised_shadow_fraction": 0.0164579613599605,
+        "max_shadow_excluded_fraction": 0.8212735441600704,
+        "max_shadow_excluded_by_disagreement_fraction": 0.8158516643215316,
+        "max_shadow_excluded_by_uncertainty_fraction": 0.029923561273218196,
+        "max_shadow_disagreement_only_fraction": 0.7913499828868522,
+        "max_shadow_uncertainty_only_fraction": 0.005421879838538809,
+        "max_shadow_both_exclusion_fraction": 0.024501681434679387,
+        "min_only_shadow_fraction": 0.010695547401748568,
+        "max_only_shadow_fraction": 0.06402704456520719,
+        "supervised_shadow_pixels": 32898,
+        "max_shadow_pixels": 184069,
+        "mask_values": {
+          "min": [
+            0,
+            255
+          ],
+          "max": [
+            0,
+            255
+          ],
+          "uncertainty": [
+            0,
+            255
+          ]
+        }
+      },
+      "selection_score": 0.1659101916807861
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "selected": 9,
+  "done": 9,
+  "saved": 7,
+  "candidate_rgb": 5,
+  "candidate_pan": 2,
+  "rejected": 2,
+  "errors": 0,
+  "retry_keys": [],
+  "attempted_this_run": 0,
+  "output": "E:\\MyPythonProject\\segformer\\nir_candidate_pilot_v1",
+  "elapsed_seconds": 0.0,
+  "historical_integrity_ok": true,
+  "historical_integrity_issues": []
+}

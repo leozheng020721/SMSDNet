@@ -1,0 +1,18 @@
+[
+  {
+    "key": "JAX_255/JAX_255_24",
+    "x": 500,
+    "y": 150,
+    "width": 850,
+    "height": 800,
+    "note": "Coordinates refer to original RGB pixels, not resized contact-sheet pixels. Visible brightness is not manual ground truth."
+  },
+  {
+    "key": "JAX_231/JAX_231_24",
+    "x": 250,
+    "y": 250,
+    "width": 950,
+    "height": 750,
+    "note": "Coordinates refer to original RGB pixels, not resized contact-sheet pixels. Visible brightness is not manual ground truth."
+  }
+]

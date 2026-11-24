@@ -1,0 +1,18 @@
+{
+  "event": "complete",
+  "selected": 60,
+  "accepted": 56,
+  "rejected": 4,
+  "resume_skipped": 0,
+  "output": "E:\\MyPythonProject\\segformer\\nir_alignment_preview",
+  "output_bytes": 341626522,
+  "elapsed_seconds": 34.7,
+  "rejected_keys": [
+    "JAX_307/JAX_307_8",
+    "JAX_356/JAX_356_8",
+    "JAX_486/JAX_486_15",
+    "JAX_548/JAX_548_9"
+  ],
+  "median_holdout_rgb_px": 1.0173529459667972,
+  "minimum_valid_fraction": 0.6434850297813783
+}

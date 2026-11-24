@@ -1,0 +1,118 @@
+{
+  "methods": [
+    "orb500_crosscheck",
+    "orb8000_crosscheck",
+    "orb8000_mutual_ratio",
+    "sift5000_mutual_ratio"
+  ],
+  "source_root": "E:\\Dataset\\SEO",
+  "samples": [
+    {
+      "key": "JAX_659/JAX_659_8",
+      "cohort": "failed_matching",
+      "city": "JAX"
+    },
+    {
+      "key": "JAX_418/JAX_418_9",
+      "cohort": "failed_matching",
+      "city": "JAX"
+    },
+    {
+      "key": "JAX_681/JAX_681_15",
+      "cohort": "failed_matching",
+      "city": "JAX"
+    },
+    {
+      "key": "OMA_700/OMA_700_12",
+      "cohort": "failed_matching",
+      "city": "OMA"
+    },
+    {
+      "key": "UCSD_463/UCSD_463_30",
+      "cohort": "failed_matching",
+      "city": "UCSD"
+    },
+    {
+      "key": "UCSD_291/UCSD_291_3",
+      "cohort": "failed_matching",
+      "city": "UCSD"
+    },
+    {
+      "key": "JAX_461/JAX_461_11",
+      "cohort": "accepted_control",
+      "city": "JAX",
+      "reference_H": [
+        [
+          4.000630395735247,
+          0.0007368458224755562,
+          0.33331403850791985
+        ],
+        [
+          -0.00027100670941195964,
+          3.9998558399519313,
+          1.3523580177055115
+        ],
+        [
+          4.4252672755806374e-08,
+          7.880995661544001e-07,
+          1.0
+        ]
+      ]
+    },
+    {
+      "key": "OMA_732/OMA_732_39",
+      "cohort": "accepted_control",
+      "city": "OMA",
+      "reference_H": [
+        [
+          4.000947150354314,
+          0.0008073474962250088,
+          -0.9574203714023453
+        ],
+        [
+          0.00030097746248338456,
+          4.0012879862702295,
+          2.4647031317532777
+        ],
+        [
+          -7.935584612127523e-07,
+          3.40263154072391e-07,
+          1.0
+        ]
+      ]
+    },
+    {
+      "key": "UCSD_317/UCSD_317_6",
+      "cohort": "accepted_control",
+      "city": "UCSD",
+      "reference_H": [
+        [
+          4.000611548524633,
+          0.0026519995505699897,
+          0.11320680514765469
+        ],
+        [
+          -0.002038546460249355,
+          4.005163783415956,
+          2.0263298846975157
+        ],
+        [
+          -6.774141409907045e-07,
+          2.2235952900842292e-06,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "detection_grid": "original PAN resolution; MSI gray enlarged with cubic interpolation",
+  "radiometry": "same 1/99 percentile visible/PAN preprocessing as formal comparison",
+  "qa": "unchanged fit_and_validate_spatial defaults; target points bridged into original RGB grid",
+  "threads": 1,
+  "gdal_cache_bytes": 33554432,
+  "source_sha256": {
+    "nir_registration_benchmark\\pan_fullres_probe.py": "49b7a1c1582f44f0162b9ac8e0bcb6399e81840c55d919ad3108b98037510b1d",
+    "nir_registration_metrics.py": "0ac075091abdc2a36247ff5139163515e7754cdc355e3fc27bf5de2e87091120",
+    "align_seo_nir.py": "0cbd6981b9c425dfa9291924dc9390af357f922d15cf453b5783cf055682ee00"
+  },
+  "official_orb_reference": "https://github.com/centreborelli/shadow-eo-dataset/blob/main/pansharpen.py"
+}

@@ -1,0 +1,47 @@
+{
+  "sample_count": 1,
+  "by_cohort": {
+    "failed_matching": {
+      "n": 1,
+      "direct_loftr": {
+        "accepted": 0,
+        "runtime_errors": 0
+      },
+      "pan_classical": {
+        "accepted": 0,
+        "runtime_errors": 0
+      },
+      "pan_loftr": {
+        "accepted": 0,
+        "runtime_errors": 0
+      },
+      "pan_any": {
+        "accepted": 0,
+        "runtime_errors": 0
+      }
+    }
+  },
+  "by_city": {
+    "UCSD": {
+      "n": 1,
+      "direct_loftr": {
+        "accepted": 0,
+        "runtime_errors": 0
+      },
+      "pan_classical": {
+        "accepted": 0,
+        "runtime_errors": 0
+      },
+      "pan_loftr": {
+        "accepted": 0,
+        "runtime_errors": 0
+      },
+      "pan_any": {
+        "accepted": 0,
+        "runtime_errors": 0
+      }
+    }
+  },
+  "pan_grid_verified": 1,
+  "sample_runtime_errors": 0
+}

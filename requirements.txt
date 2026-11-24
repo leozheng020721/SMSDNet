@@ -1,0 +1,17 @@
+# KappaSet云影检测系统依赖库
+# 使用方法: pip install -r requirements.txt
+
+# 核心依赖
+opencv-python-headless>=4.8.0
+albumentations>=1.3.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# 深度学习库
+segmentation-models-pytorch>=0.3.3
+timm>=0.9.0
+
+# 可选依赖 (用于模型部署)
+# onnxruntime-gpu>=1.16.0

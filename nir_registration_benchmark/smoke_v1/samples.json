@@ -1,0 +1,440 @@
+[
+  {
+    "key": "JAX_681/JAX_681_15",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_659/JAX_659_8",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_418/JAX_418_9",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_792/JAX_792_15",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_627/JAX_627_8",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_328/JAX_328_9",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_697/JAX_697_15",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_436/JAX_436_8",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_681/JAX_681_9",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_779/JAX_779_15",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_681/JAX_681_8",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_500/JAX_500_9",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_821/JAX_821_15",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_778/JAX_778_8",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_896/JAX_896_9",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_767/JAX_767_15",
+    "cohort": "failed_matching",
+    "city": "JAX"
+  },
+  {
+    "key": "JAX_461/JAX_461_11",
+    "cohort": "accepted_control",
+    "city": "JAX",
+    "reference_H": [
+      [
+        4.000630395735247,
+        0.0007368458224755562,
+        0.33331403850791985
+      ],
+      [
+        -0.00027100670941195964,
+        3.9998558399519313,
+        1.3523580177055115
+      ],
+      [
+        4.4252672755806374e-08,
+        7.880995661544001e-07,
+        1.0
+      ]
+    ]
+  },
+  {
+    "key": "JAX_596/JAX_596_19",
+    "cohort": "accepted_control",
+    "city": "JAX",
+    "reference_H": [
+      [
+        3.9969162910605567,
+        -0.00046872214193565445,
+        -0.6502969202424462
+      ],
+      [
+        0.0012608868652947526,
+        3.993429586051744,
+        1.7010313707136633
+      ],
+      [
+        5.599197273355368e-07,
+        -4.5125454290058885e-06,
+        1.0
+      ]
+    ]
+  },
+  {
+    "key": "JAX_336/JAX_336_18",
+    "cohort": "accepted_control",
+    "city": "JAX",
+    "reference_H": [
+      [
+        4.00141025489561,
+        -0.0005199470486867379,
+        -1.6558683067554696
+      ],
+      [
+        0.0005029822784409548,
+        3.9990374207796013,
+        2.3283403230425925
+      ],
+      [
+        3.527988048599498e-07,
+        -1.5063999641742315e-06,
+        1.0
+      ]
+    ]
+  },
+  {
+    "key": "OMA_700/OMA_700_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_930/OMA_930_26",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_428/OMA_428_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_922/OMA_922_26",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_697/OMA_697_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_967/OMA_967_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_641/OMA_641_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_930/OMA_930_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_832/OMA_832_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_798/OMA_798_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_835/OMA_835_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_893/OMA_893_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_639/OMA_639_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_389/OMA_389_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_382/OMA_382_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_387/OMA_387_12",
+    "cohort": "failed_matching",
+    "city": "OMA"
+  },
+  {
+    "key": "OMA_732/OMA_732_39",
+    "cohort": "accepted_control",
+    "city": "OMA",
+    "reference_H": [
+      [
+        4.000947150354314,
+        0.0008073474962250088,
+        -0.9574203714023453
+      ],
+      [
+        0.00030097746248338456,
+        4.0012879862702295,
+        2.4647031317532777
+      ],
+      [
+        -7.935584612127523e-07,
+        3.40263154072391e-07,
+        1.0
+      ]
+    ]
+  },
+  {
+    "key": "OMA_93/OMA_93_5",
+    "cohort": "accepted_control",
+    "city": "OMA",
+    "reference_H": [
+      [
+        3.9956200513459974,
+        0.0008546054344142416,
+        -1.1452158481849872
+      ],
+      [
+        -0.0020670676996999036,
+        3.998470218439325,
+        0.5918725089384388
+      ],
+      [
+        -1.4833705306622066e-06,
+        1.1425028967067274e-07,
+        1.0
+      ]
+    ]
+  },
+  {
+    "key": "OMA_161/OMA_161_15",
+    "cohort": "accepted_control",
+    "city": "OMA",
+    "reference_H": [
+      [
+        4.000346717020396,
+        0.0008585562129497548,
+        -1.953420977099495
+      ],
+      [
+        -0.0010285267868723035,
+        4.000582718063359,
+        0.5970053931836793
+      ],
+      [
+        -4.792116835383279e-07,
+        6.69247004615262e-07,
+        1.0
+      ]
+    ]
+  },
+  {
+    "key": "UCSD_291/UCSD_291_3",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_463/UCSD_463_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_639/UCSD_639_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_541/UCSD_541_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_495/UCSD_495_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_194/UCSD_194_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_671/UCSD_671_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_494/UCSD_494_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_347/UCSD_347_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_496/UCSD_496_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_643/UCSD_643_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_256/UCSD_256_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_173/UCSD_173_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_387/UCSD_387_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_670/UCSD_670_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_382/UCSD_382_30",
+    "cohort": "failed_matching",
+    "city": "UCSD"
+  },
+  {
+    "key": "UCSD_317/UCSD_317_6",
+    "cohort": "accepted_control",
+    "city": "UCSD",
+    "reference_H": [
+      [
+        4.000611548524633,
+        0.0026519995505699897,
+        0.11320680514765469
+      ],
+      [
+        -0.002038546460249355,
+        4.005163783415956,
+        2.0263298846975157
+      ],
+      [
+        -6.774141409907045e-07,
+        2.2235952900842292e-06,
+        1.0
+      ]
+    ]
+  },
+  {
+    "key": "UCSD_19/UCSD_19_28",
+    "cohort": "accepted_control",
+    "city": "UCSD",
+    "reference_H": [
+      [
+        4.0009874351737125,
+        0.0019397223797197492,
+        -1.3092001133619688
+      ],
+      [
+        0.000147259756167864,
+        4.002496884686363,
+        0.11683000361088758
+      ],
+      [
+        2.92499620281985e-07,
+        9.048670058462485e-07,
+        1.0
+      ]
+    ]
+  },
+  {
+    "key": "UCSD_230/UCSD_230_1",
+    "cohort": "accepted_control",
+    "city": "UCSD",
+    "reference_H": [
+      [
+        4.002300256835589,
+        0.002208857653639812,
+        -0.1583119600057541
+      ],
+      [
+        -0.0012914818425394945,
+        4.002522678763492,
+        2.45508647123181
+      ],
+      [
+        -6.867506649965142e-07,
+        1.994079998040631e-06,
+        1.0
+      ]
+    ]
+  }
+]

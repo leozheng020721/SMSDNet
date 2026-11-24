@@ -1,0 +1,11 @@
+# KappaSet Class Weights for Loss Function
+# Copy one of these lines to config.yaml
+
+# Method 1: Inverse Frequency (Balanced)
+class_weights: [0.505587718520995, 2.3288072708592975, 0.6596734716541977, 0.5059315389655102]
+
+# Method 2: Shadow-Focused (Recommended)
+class_weights: [0.23359215917258078, 3.227873811619726, 0.30478301775872224, 0.23375101144897095]
+
+# Method 3: Extreme Shadow Emphasis
+class_weights: [0.26666666666666666, 2.6666666666666665, 0.5333333333333333, 0.5333333333333333]
